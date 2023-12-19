@@ -15,8 +15,13 @@ class Solution {
     }
 public:
     int splitArray(vector<int>& nums, int k) {
-        int low=*max_element(nums.begin(),nums.end());
-        int high=accumulate(nums.begin(),nums.end(),0);
+        int low=INT_MIN;
+        int high=0;
+        int n=nums.size();
+        for(int i=0;i<n;i++){
+            low=max(low,nums[i]);
+            high+=nums[i];
+        }
         while(low<=high){
             int mid=(low+high)>>1;
             if(noOfSubArr(nums,mid)<=k){
