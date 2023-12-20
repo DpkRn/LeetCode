@@ -1,56 +1,69 @@
-class Solution {
-public:
-    double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
-        int n1=nums1.size(),n2=nums2.size();
-        int n=n1+n2;
-        int l=0,r=0;
-        int low=INT_MIN,high=INT_MIN;
-        int cnt=0;int flag=false;
-        int k=(n/2);
-        while(l<n1&&r<n2&&flag==false){
-            if(nums1[l]<=nums2[r]){
+class Solution
+{
+    public:
+        double findMedianSortedArrays(vector<int> &a, vector<int> &b)
+        {
+            int n1 = a.size();
+            int n2 = b.size();
+            int l = 0, r = 0;
+            int n = (n1 + n2);
+            int ind2 = n / 2;
+            int ind1 = ind2 - 1;
+            int ind1el = -1;
+            int ind2el = -1;
+            int cnt = 0;
+            int flag = false;
+            while (l < n1 && r < n2 && flag == false)
+            {
+                if (a[l] < b[r])
+                {
+                    if (cnt == ind1) ind1el = a[l];
+                    if (cnt == ind2)
+                    {
+                        ind2el = a[l];
+                        flag = true;
+                    }
+                    cnt++;
+                    l++;
+                }
+                else
+                {
+                    if (cnt == ind1) ind1el = b[r];
+                    if (cnt == ind2)
+                    {
+                        ind2el = b[r];
+                        flag = true;
+                    }
+                    cnt++;
+                    r++;
+                }
+            }
+            while (l < n1 && flag == false)
+            {
+                if (cnt == ind1) ind1el = a[l];
+                if (cnt == ind2)
+                {
+                    ind2el = a[l];
+                    flag = true;
+                }
                 cnt++;
-                if(cnt==k){
-                    low=nums1[l];
-                } 
-                if(cnt==k+1) {high=nums1[l];  flag=true;}
                 l++;
-               
             }
-            else{
-            
-                 cnt++;
-                if(cnt==k){
-                    low=nums2[r];
-                } 
-                if(cnt==k+1) {high=nums2[r]; flag=true;}
+            while (r < n2 && flag == false)
+            {
+                if (cnt == ind1) ind1el = b[r];
+                if (cnt == ind2)
+                {
+                    ind2el = b[r];
+                    flag == true;
+                }
+                cnt++;
                 r++;
             }
-        }        
-        while(l<n1&&flag==false){
-            
-             cnt++;
-                if(cnt==k){
-                    low=nums1[l];
-                } 
-                if(cnt==k+1) {high=nums1[l];  flag=true;}
-                l++;
-               
+
+            if (n % 2 == 1)
+                return (double)(ind2el);
+
+            return (double)(ind1el + ind2el) / 2.0;
         }
-        while(r<n2&&flag==false){
-           
-             cnt++;
-                if(cnt==k){
-                    low=nums2[r];
-                } 
-                if(cnt==k+1) {high=nums2[r]; flag=true;}
-                r++;
-        } 
-        if(n%2==1){
-            return 1ll*high;
-        }
-        else{
-            return (double)(1ll*low+ 1ll*high)/2.0;
-        }
-    }
 };
