@@ -1,3 +1,23 @@
+
+class Solution {
+public:
+    string mergeAlternately(string word1, string word2) {
+       int l1=word1.size(),l2=word2.size();
+        int i=0;
+        string str="";
+        while(i<l1||i<l2){
+            if(i<l1)
+                str=str+word1[i];
+            if(i<l2)
+                str=str+word2[i];
+            
+            i++;
+        }
+        return str;
+    }
+};
+
+/*
 class Solution {
 public:
     string mergeAlternately(string word1, string word2) {
@@ -16,3 +36,5 @@ public:
         return str;
     }
 };
+
+*/
