@@ -9,13 +9,32 @@
  * };
  */
 class Solution {
+    ListNode* rev(ListNode* head){
+        if(head==NULL||head->next==NULL) return head;
+        ListNode* headNode=rev(head->next);
+        head->next->next=head;
+        head->next=NULL;
+        return headNode;       
+    }
+public:
+    ListNode* reverseList(ListNode* head) {
+        
+        return rev(head);
+        
+    }
+};
+
+/* 
+
+O(N) O(1)
+class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
         
         if(head==NULL||head->next==NULL) return head;
         ListNode* curr=head;
         ListNode* prev=NULL;
-       
+        
         while(curr){
             ListNode* tmp=curr->next;
             curr->next=prev;
@@ -26,8 +45,12 @@ public:
     }
 };
 
+*/
+
 /*
  O(N) O(N)
+ 
+ 
  
  class Solution {
     ListNode* rev(ListNode* head,ListNode* &ans){
