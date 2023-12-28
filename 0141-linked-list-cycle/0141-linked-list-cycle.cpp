@@ -26,13 +26,13 @@ public:
 //using hashmap O(N) O(N)
 class Solution {
 public:
-    map<ListNode*,bool> map;
+   
     bool hasCycle(ListNode *head) {
-        
+        map<ListNode*,int> mp;
         while(head!=NULL){
-            if(map[head]==true)
+            if(mp[head]==1)
                 return true;
-            map[head]=head;
+            mp[head]=1;
             head=head->next;
         }
         return false;
