@@ -9,6 +9,8 @@
  * };
  */
 class Solution {
+    
+    //reversing the next half link list
     ListNode* reverse(ListNode *head){
         ListNode* curr=head;
         ListNode* prev=NULL;
@@ -20,19 +22,20 @@ class Solution {
         }
         return prev;
     }
+    
 public:
-    bool isPalindrome(ListNode* head) {
-       
+    bool isPalindrome(ListNode* head) {  
+        //finding middile node
         ListNode* slow=head;
         ListNode* fast=head;
-       
-        
-       
         while(fast->next&&fast->next->next!=NULL){
             slow=slow->next; 
             fast=fast->next->next;
         }
+        
         ListNode *newHead=reverse(slow->next);
+        
+        //compairing node 
         ListNode* curr=head;
         while(newHead){
             if(curr->val!=newHead->val)
