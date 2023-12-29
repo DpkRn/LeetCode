@@ -8,6 +8,33 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
+
+class Solution {
+public:
+    ListNode* removeNthFromEnd(ListNode* head, int n) {
+        ListNode* fast=head;
+        //you can use this loop instead of for loop
+        // while(fast){
+        //     fast=fast->next;
+        //     n--;
+        //     if(n==0) break;               
+        // }
+        for(int i=0;i<n;i++) fast=fast->next;
+        if(fast==NULL) return head->next;
+        ListNode* slow=head;
+        while(fast->next){
+            fast=fast->next;
+            slow=slow->next;
+        }
+        ListNode* del=slow->next;
+        slow->next=del->next;
+        delete(del);
+        return head;
+        
+    }
+};
+
+/* Recursive method
 class Solution {
 public:
     int remove(ListNode* head,int K){
@@ -29,3 +56,4 @@ ListNode* removeNthFromEnd(ListNode* head, int n) {
 
     }
 };
+*/
