@@ -11,10 +11,12 @@
 class Solution {
 public:
     ListNode* deleteMiddle(ListNode* head) {
-          if(head==NULL||head->next==NULL) return NULL;
+        
+        //using tortoise and hare method one thing to remember just skip one slow stem
+           if(head==NULL||head->next==NULL) return NULL;
         ListNode* slow=head;
-        ListNode* fast=head->next;
-        while(fast->next&&fast->next->next){
+        ListNode* fast=head->next->next;
+        while(fast&&fast->next){
             slow=slow->next;
             fast=fast->next->next;
         }
@@ -22,3 +24,18 @@ public:
         return head;
     }
 };
+
+// class Solution {
+// public:
+//     ListNode* deleteMiddle(ListNode* head) {
+//           if(head==NULL||head->next==NULL) return NULL;
+//         ListNode* slow=head;
+//         ListNode* fast=head->next;
+//         while(fast->next&&fast->next->next){
+//             slow=slow->next;
+//             fast=fast->next->next;
+//         }
+//         slow->next=slow->next->next;
+//         return head;
+//     }
+// };
