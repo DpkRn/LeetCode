@@ -7,46 +7,36 @@
  * };
  */
 class Solution {
-    ListNode* findNode(ListNode* headA,ListNode* headB){
-        while(headA){
-            if(headA==headB) return headA;
-            headA=headA->next;
-            headB=headB->next;
+    ListNode* findNode(ListNode* gLink,ListNode* sLink,int d){
+        while(d){           //making skipping greater link list node to make the both linklist equal
+            d--;
+            gLink=gLink->next;
+        } 
+        while(gLink!=sLink){    //finding common node 
+            gLink=gLink->next;
+            sLink=sLink->next;
         }
-        return NULL;
+        return gLink;
     }
 public:
     ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
        
         ListNode* temp=headA;
         int cntHeadA=0;
-        while(temp){
+        while(temp){       //find headA length
             cntHeadA++;
             temp=temp->next;
         }
         temp=headB;
         int cntHeadB=0;
-        while(temp){
+        while(temp){        //finding headB length
             cntHeadB++;
             temp=temp->next;
         }
-        int cnt=0;
-        ListNode *tempA=headA;
-        ListNode* tempB=headB;
-        if(cntHeadA>cntHeadB){
-            tempA=headA;
-            cnt=cntHeadA-cntHeadB;
-             for(int i=0;i<cnt;i++) tempA=tempA->next;
-        }
-        else{
-            tempB=headB;
-            cnt=cntHeadB-cntHeadA;
-            for(int i=0;i<cnt;i++) tempB=tempB->next;
-        }
-       
-        temp=findNode(tempA,tempB);
-        return temp;
         
-       
+        if(cntHeadA>cntHeadB)
+            return findNode(headA,headB,cntHeadA-cntHeadB);
+        else
+            return findNode(headB,headA,cntHeadB-cntHeadA);
     }
 };
