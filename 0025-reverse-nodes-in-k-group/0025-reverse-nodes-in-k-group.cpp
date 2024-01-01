@@ -9,17 +9,8 @@
  * };
  */
 class Solution {
-    void reverse(ListNode* head){
-        ListNode* curr=head;
-        ListNode* prev=NULL;
-        while(curr){
-            ListNode* temp=curr->next;
-            curr->next=prev;
-            prev=curr;
-            curr=temp;
-        }
-    }
     
+    //it will find the kthNode;
     ListNode* findKthNode(ListNode* head,int k){
         ListNode* temp=head;
         int cnt=0;
@@ -31,30 +22,48 @@ class Solution {
         }
         return NULL;
      }
+    
+    
+    //it will reverse the seprated linklist so that kthNode would be head of reversed linkedlist
+    void reverse(ListNode* head){
+        ListNode* curr=head;
+        ListNode* prev=NULL;
+        while(curr){
+            ListNode* temp=curr->next;
+            curr->next=prev;
+            prev=curr;
+            curr=temp;
+        }
+    }
+    
 public:
     ListNode* reverseKGroup(ListNode* head, int k) {
        ListNode* temp=head;
-        ListNode* prevNode=NULL;
+        ListNode* prevLast=NULL; //this variable preserve the node when temp will goto the next node to get reversed new head
+        
         while(temp){
             ListNode* kthNode=findKthNode(temp,k);
+            
+            
             if(kthNode==NULL){
-               if(prevNode) prevNode->next=temp;
+               if(prevLast) prevLast->next=temp;
                 break;
             }
-            ListNode* nextNode=kthNode->next;
-            kthNode->next=NULL;            
+            
+            ListNode* nextNode=kthNode->next; //preserving the nextNOde to run again
+            kthNode->next=NULL;       //seprating the linkedlist to reverse      
             reverse(temp);
             
-            if(head==temp){
+            if(head==temp){          //if there will be first linklist then we dont need to insert in prevNode
                 head=kthNode;
             }else{
-               prevNode->next=kthNode; 
+               prevLast->next=kthNode;  //other wise there will be available prevNode of already reversed previous linklist
             }
-            prevNode=temp;
+            prevLast=temp; //preserving the prevLastNode
             temp=nextNode;
             
         }
-       // cout<<head->val;
+      
         return head;
         
     }
