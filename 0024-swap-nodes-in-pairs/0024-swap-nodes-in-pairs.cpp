@@ -17,11 +17,12 @@ public:
             ListNode* nextNode=curr->next;
             curr->next=nextNode->next;
             nextNode->next=curr;
-            if(prevNode) prevNode->next=nextNode;
-             if(curr==head) head=nextNode;
-            prevNode=curr;
-            curr=curr->next;
            
+             if(curr==head) head=nextNode;
+              else  if(prevNode) prevNode->next=nextNode;
+           
+            prevNode=curr;
+            curr=curr->next;          
             
         }
         
