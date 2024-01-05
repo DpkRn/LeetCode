@@ -19,3 +19,7 @@ public:
         return nums.size()+1;
     }
 };
+//The basic approach to fill all the element at its correct possition if the that element will not there in that case the other element which will be arr.size() or greater will take its place 
+//after that we can check at which index the right element is not there
+//ex: 1 3 4 5
+//    1 5 3 4 so in case index+1 will be our ans
