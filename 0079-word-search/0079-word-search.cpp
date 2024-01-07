@@ -4,12 +4,12 @@ public:
         if(ind==word.size()) return true;
         if(r<0||c<0||r==board.size()||c==board[0].size()||board[r][c]!=word[ind]) return false;
         board[r][c]='#';
-        bool up=search(r-1,c,word,ind+1,board);
-        bool right=search(r,c+1,word,ind+1,board);
-        bool down=search(r+1,c,word,ind+1,board);
-        bool left=search(r,c-1,word,ind+1,board);
+        if(search(r-1,c,word,ind+1,board)) return true;
+        if(search(r,c+1,word,ind+1,board)) return true;;
+        if(search(r+1,c,word,ind+1,board)) return true;
+        if(search(r,c-1,word,ind+1,board)) return true;
         board[r][c]=word[ind];
-        return up||right||down||left;
+        return false;
         
     }
     bool exist(vector<vector<char>>& board, string word) {
