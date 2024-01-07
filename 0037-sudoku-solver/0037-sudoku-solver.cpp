@@ -43,7 +43,6 @@ public:
     void solveSudoku(vector<vector<char>>& board) {
         pair<int,int> cell=findNext(board);
         int r=cell.first; int c=cell.second;
-        vector<vector<int>> visited(9,vector<int>(9,0));
         solve(r,c,board);
     }
 };
