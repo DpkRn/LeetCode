@@ -1,6 +1,26 @@
 class Solution {
 public:
     int rob(vector<int>& nums) {
+        int n=nums.size();
+        int p1=nums[0];
+        int p2=0;
+        for(int i=1;i<n;i++){
+            int notpick=p1;
+            int pick=nums[i]+p2;
+            int curr=max(pick,notpick);
+            
+            p2=p1;
+            p1=curr;
+            
+        }
+        return p1;
+    }
+};
+
+/*
+class Solution {
+public:
+    int rob(vector<int>& nums) {
       int n=nums.size();
       vector<int> dp(n,0);
         dp[0]=nums[0];
@@ -14,6 +34,7 @@ public:
         return dp[n-1];
     }
 };
+*/
 
 /*
 class Solution {
