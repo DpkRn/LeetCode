@@ -4,6 +4,30 @@ public:
          int m=obstacleGrid.size();
          int n=obstacleGrid[0].size();
         const int mod=2*1e9;
+         vector<long long> dp(n,0);
+        for(int r=m-1;r>=0;r--){
+            int rt=0;
+            for(int c=n-1;c>=0;c--){
+                if(r==m-1&&c==n-1&& !(obstacleGrid[r][c]==1) ){ dp[c]=1; rt=1; continue;}
+                if(obstacleGrid[r][c]==1) { dp[c]=0; rt=0; continue;}
+                long long right=0;
+                long long bot=0;
+                if(c+1<=n-1) right=rt;;
+                if(r+1<=m-1) bot=dp[c];
+                dp[c]=(bot%mod+right%mod)%mod; 
+                rt=dp[c];
+            }
+        }
+        return dp[0];
+        
+    }
+};
+/*class Solution {
+public:
+    int uniquePathsWithObstacles(vector<vector<int>>& obstacleGrid) {
+         int m=obstacleGrid.size();
+         int n=obstacleGrid[0].size();
+        const int mod=2*1e9;
          vector<vector<long long>> dp(m, vector<long long>(n,0));
         for(int r=m-1;r>=0;r--){
             for(int c=n-1;c>=0;c--){
@@ -13,13 +37,14 @@ public:
                 long long bot=0;
                 if(c+1<=n-1) right=dp[r][c+1];
                 if(r+1<=m-1) bot=dp[r+1][c];
-                dp[r][c]=(bot%mod+right%mod)%mod;
-                
+                dp[r][c]=(bot%mod+right%mod)%mod;                
             }
         }
         return dp[0][0];      
     }
 };
+
+*/
 
 /*int fun(int r, int c, int m, int n, vector<vector<int>>& mat, vector<vector<int>>& dp){
     
