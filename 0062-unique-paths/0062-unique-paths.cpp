@@ -1,4 +1,27 @@
 class Solution {
+public:
+    int uniquePaths(int m, int n) {
+         vector<vector<int>>dp(m,vector<int>(n,0));
+        dp[m-1][n-1]=1;
+        for(int r=m-1;r>=0;r--){    
+            for(int c=n-1;c>=0;c--){
+                if(r==m-1&&c==n-1) {dp[r][c]=1; continue;}
+                int bot=0;
+                int right=0;
+                if(r+1<=m-1)
+                bot=dp[r+1][c];
+                if(c+1<=n-1)
+                right=dp[r][c+1];
+                 dp[r][c]=bot+right;
+            }
+           
+        }
+        return dp[0][0];
+    }
+};
+
+/*
+class Solution {
     int f(int r,int c,int m,int n,vector<vector<int>>&dp){
         if(r>=m||c>=n) return 0;
         if(dp[r][c]!=-1) return dp[r][c];
@@ -9,8 +32,9 @@ class Solution {
         return dp[r][c]=bot+right;
     }
 public:
-    int uniquePaths(int m, int n) {
+     int uniquePaths(int m, int n) {
         vector<vector<int>>dp(m,vector<int>(n,-1));
-        return f(0,0,m,n,dp);
+        return f(0,0,m,n,dp);       
     }
 };
+*/
