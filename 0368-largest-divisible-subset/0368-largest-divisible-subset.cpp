@@ -31,3 +31,24 @@ public:
       
     }
 };
+/*
+vector<int> f(int ind,int prev,int n,vector<int> &arr){
+    if(ind==n) return {};
+    vector<int> nottake=f(ind+1,prev,n,arr);
+    vector<int> take={};
+    if (prev == -1 || arr[ind] % arr[prev] == 0) {
+       take=f(ind+1,ind,n,arr);
+      take.push_back(arr[ind]);
+     
+    }
+    if(take.size()>nottake.size())
+    return take;
+    return nottake;
+
+}
+vector<int> divisibleSet(vector<int> &arr)
+{  int n=arr.size();
+    sort(arr.begin(),arr.end());
+    return f(0, -1, n, arr);
+}
+*/
