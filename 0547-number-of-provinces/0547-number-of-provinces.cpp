@@ -1,4 +1,39 @@
- class disjoint{
+class Solution {
+public:
+  //USING SIMPLE DFS TECHNIQES O(N*N)  
+    void dfs(int src,vector<int> adj[],vector<int> &vis){
+        vis[src]=1;
+        for(auto it:adj[src] ){
+            if(!vis[it]){
+                dfs(it,adj,vis);
+            }
+        }
+    }
+    int findCircleNum(vector<vector<int>>& isConnected) {
+        int n=isConnected.size();
+        vector<int> vis(n,0);
+        vector<int> edges[n];
+        for(int i=0;i<n;i++){
+            for(int j=0;j<n;j++){
+                if(i!=j&&isConnected[i][j]==1){
+                    edges[i].push_back(j);
+                }
+            }
+            
+        }
+        int cnt=0;
+        for(int i=0;i<n;i++){        
+            if(!vis[i]){
+                dfs(i,edges,vis);
+                cnt++;
+            }    
+        }
+        return cnt;
+    }
+};
+//USING DISJOINT UNION SET
+/*
+class disjoint{
     vector<int> rank;
    
     vector<int> parent;
@@ -81,3 +116,5 @@ public:
         return cnt;
     }
 };
+
+*/
