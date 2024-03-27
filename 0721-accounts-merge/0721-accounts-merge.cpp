@@ -43,14 +43,10 @@ public:
                 }
             }
         }
-        int cnt=0;
-        for(int i=0;i<n;i++){
-            if(dsu.parent[i]==i) cnt++;
-        }
+       
       
         
-        vector<vector<string>> ans(n);
-       
+        vector<string> ans[n]; 
         for(auto it:mp){
             string email=it.first;
             int ind=it.second;
@@ -59,15 +55,16 @@ public:
             
         }
         
-       vector<vector<string>> result(cnt);
-        int ind=0;
+       vector<vector<string>> result;      
        for(int i=0;i<n;i++){
             if(ans[i].size()>0){
-                   result[ind].push_back({accounts[i][0]});
+                   vector<string> temp;
+                   temp.push_back(accounts[i][0]);
+                
                    for(int j=0;j<ans[i].size();j++){
-                       result[ind].push_back(ans[i][j]);
+                      temp.push_back(ans[i][j]);
                    }
-                 ind++;
+                 result.push_back(temp);
                }
           
           
