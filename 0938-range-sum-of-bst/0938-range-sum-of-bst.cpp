@@ -11,35 +11,18 @@
  */
 class Solution {
 public:
-    int rangeSumBST(TreeNode* root, int low, int high) {
-        queue<TreeNode*> q;
-        int sum=0;
-        q.push(root);
-        while(!q.empty()){
-            TreeNode* node=q.front();
-            q.pop();
-            if(node->val>=low&&node->val<=high)
-                sum+=node->val;
-            if(node->left) q.push(node->left);
-            if(node->right) q.push(node->right);
-            
-        }
-        return sum;
-    }
-};
-
-/*
-class Solution {
-public:
+    int sum=0;
     int rangeSumBST(TreeNode* root, int low, int high) {
         if(root==NULL) return 0;
-        
-        int left=rangeSumBST(root->left,low,high);
-        int right=rangeSumBST(root->right,low,high);
-        if(root->val>=low&&root->val<=high){
-            return root->val+left+right;
-        }else return left+right;
+        int left=0,right=0;
+        if(root->val>=low){
+            left=rangeSumBST(root->left,low,high);
+        }
+        if(root->val<=high){
+            right=rangeSumBST(root->right,low,high);
+        }
+        if(root->val>=low&&root->val<=high) return root->val+left+right;
+        else return left+right;
         
     }
 };
-*/
