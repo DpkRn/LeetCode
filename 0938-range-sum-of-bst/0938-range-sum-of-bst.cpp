@@ -11,6 +11,18 @@
  */
 class Solution {
 public:
+    int rangeSumBST(TreeNode* root, int low, int high) {
+        if(!root) return 0;
+        int left=rangeSumBST(root->left,low,high);
+        int right=rangeSumBST(root->right,low,high);
+        if(low<=root->val&&root->val<=high)
+            return left+right+root->val;
+        else return left+right;
+    }
+};
+/*
+class Solution {
+public:
     int sum=0;
     int rangeSumBST(TreeNode* root, int low, int high) {
         if(root==NULL) return 0;
@@ -26,3 +38,4 @@ public:
         
     }
 };
+*/
