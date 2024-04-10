@@ -11,8 +11,22 @@
  */
 class Solution {
 public:
-    
-    pair<int,int> solve(TreeNode* root){
+    bool ans=true;
+    int solve(TreeNode* root){
+        if(!root) return 1;
+        int l=solve(root->left);
+        int r=solve(root->right);
+        ans=ans&&(abs(l-r)<=1);
+        return max(l,r)+1;
+    }
+    bool isBalanced(TreeNode* root) {
+        if(!root) return true;
+        solve(root);
+        return ans;
+    }
+};
+/*
+pair<int,int> solve(TreeNode* root){
         if(!root) return {0,1};
         pair<int,int> l=solve(root->left);
         pair<int,int> r=solve(root->right);
@@ -27,3 +41,4 @@ public:
         
     }
 };
+*/
