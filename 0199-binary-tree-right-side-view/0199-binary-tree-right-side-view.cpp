@@ -37,3 +37,27 @@ public:
         return ans;
     }
 };
+/*
+class Solution {
+public: vector<int> ans;
+    void solve(TreeNode* root,map<int,int> &mp,int lvl){
+        if(root){
+            if(mp.find(lvl)==mp.end())
+            mp[lvl]=root->val;
+            if(root->right)
+            solve(root->right,mp,lvl+1);
+            solve(root->left,mp,lvl+1);
+        }
+            
+    }
+    vector<int> rightSideView(TreeNode* root) {
+       
+        map<int,int> mp;
+        
+        solve(root,mp,0);
+        for(auto i:mp)
+            ans.push_back(i.second);
+        return ans;
+    }
+};
+*/
