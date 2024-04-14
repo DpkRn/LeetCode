@@ -1,3 +1,49 @@
+//push(), Pop(), top() -> O(N)
+class MyQueue {
+public:
+    stack<int> input,output;
+    MyQueue() {
+        
+    }
+    
+    void push(int x) {
+        input.push(x);
+    }
+    
+    int pop() {
+        if(input.size()+output.size()==0) return -1;
+        if(output.empty()){
+            while(!input.empty()) {
+                output.push(input.top());
+                input.pop();
+            }
+        }
+        int x=output.top();
+        output.pop();
+        return x;
+        
+        
+    }
+    
+    int peek() {
+         if(!output.empty()){
+            return output.top();
+        }else{
+            while(!input.empty()) {
+                output.push(input.top());
+                input.pop();
+            }
+            return output.top();
+        }
+    }
+    
+    bool empty() {
+      return input.size()+output.size()==0;
+    }
+};
+/*
+O(N) push()
+O(1) pop(), top()
 class MyQueue {
 public:
     stack<int> st,temp;
@@ -34,6 +80,8 @@ public:
         return st.empty();
     }
 };
+
+*/
 
 /**
  * Your MyQueue object will be instantiated and called as such:
