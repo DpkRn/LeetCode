@@ -11,22 +11,9 @@
  */
 class Solution {
 public:
-    int right(TreeNode* root){
-        if(root==NULL) return 0;
-        int l=0,r=0;
-       if(root->right)
-             l=right(root->right);
-        
-         r=right(root->left);
-        if(root->left==NULL&&root->right==NULL)
-            return l+r+root->val;
-        else
-            return l+r;
-    }
     int leaf(TreeNode* root){
          if(root==NULL) return 0;
         int l=0,r=0;
-       
         l=leaf(root->left);
         if(!(root->right==NULL||root->right->left==NULL&&root->right->right==NULL)) 
          r=leaf(root->right);
