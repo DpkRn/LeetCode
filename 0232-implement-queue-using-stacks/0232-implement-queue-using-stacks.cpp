@@ -20,21 +20,18 @@ public:
         }
         int x=output.top();
         output.pop();
-        return x;
-        
-        
+        return x;             
     }
     
     int peek() {
-         if(!output.empty()){
-            return output.top();
-        }else{
+        if(input.size()+output.size()==0) return -1;
+        if(output.empty()){
             while(!input.empty()) {
                 output.push(input.top());
                 input.pop();
             }
-            return output.top();
         }
+        return output.top();
     }
     
     bool empty() {
