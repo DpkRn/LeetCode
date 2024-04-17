@@ -20,18 +20,25 @@ public:
         tail->left=head;
     }
     
+    void deleteNode(Node* temp){
+        temp->left->right=temp->right;
+        temp->right->left=temp->left;
+    }
+    void addNode(Node* temp){
+        temp->left=tail->left;
+        temp->left->right=temp;
+        temp->right=tail;
+        tail->left=temp;
+    }
+    
     int get(int key) {
         Node* temp=NULL;
         if(mp.find(key)==mp.end())
             return -1;
         else{
              temp=mp[key];
-            temp->left->right=temp->right;
-            temp->right->left=temp->left;
-            temp->left=tail->left;
-            temp->left->right=temp;
-            temp->right=tail;
-            tail->left=temp;
+            deleteNode(temp);
+            addNode(temp);
             mp[key]=temp;
         }
         return mp[key]->val.second;
@@ -41,22 +48,17 @@ public:
         Node* temp;
         if(mp.find(key)!=mp.end()){
            temp=mp[key];
-            temp->left->right=temp->right;
-            temp->right->left=temp->left;
+            deleteNode(temp);
             temp->val.second=value;
             
         }else{
             if(size<=mp.size()){
                 mp.erase(head->right->val.first);
-                head->right=head->right->right;
-                head->right->left=head;
+               deleteNode(head->right);
             }
             temp=new Node(key,value);
         }
-        temp->left=tail->left;
-        temp->left->right=temp;
-        temp->right=tail;
-        tail->left=temp;
+        addNode(temp);
         mp[key]=temp;
         
     }
