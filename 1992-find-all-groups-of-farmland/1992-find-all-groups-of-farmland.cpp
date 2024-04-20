@@ -2,7 +2,7 @@ class Solution {
 public:
     void solve(vector<vector<int>> &land,int r,int c,int m,int n,vector<vector<int>>&vis,vector<vector<int>> &ans){
         queue<pair<int,int>> q;
-         vector<int> temp(4);
+        vector<int> temp(4);
         q.push({r,c});
          
         vis[r][c]=1;
@@ -14,9 +14,6 @@ public:
             int x=q.front().first;
             int y=q.front().second;
             q.pop();
-            if(q.empty()){
-               
-            }
             for(int i=0;i<4;i++){
                 int newx=dx[i]+x;
                 int newy=dy[i]+y;
