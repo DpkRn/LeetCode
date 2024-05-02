@@ -1,4 +1,23 @@
 class Solution {
+    //O(2N) O(N)
+public:
+    
+    int findMaxK(vector<int>& nums) {
+        int n=nums.size();
+        unordered_set<int> st;
+        for(int i=0;i<n;i++){
+            if(nums[i]<0) st.insert(nums[i]);
+        }
+        int maxi=-1;
+        for(int i=0;i<n;i++){
+            if(nums[i]>0)
+            if(st.contains(-nums[i])) maxi=max(maxi,nums[i]);
+        }
+        return maxi;
+    }
+};
+/*
+class Solution {
     //O(NLOGN)
 public:
     int findMaxK(vector<int>& nums) {
@@ -15,6 +34,9 @@ public:
         return maxi;
     }
 };
+
+*/
+
 /*
 O(N^2)
 class Solution {
