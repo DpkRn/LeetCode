@@ -1,5 +1,21 @@
 class Solution {
-    //O(2N) O(N)
+    //O(N) O(N)
+public:
+    
+    int findMaxK(vector<int>& nums) {
+        int n=nums.size();
+        bool vis[2000+2]={false};
+        int ans=-1;
+        for(auto el:nums){
+           if(vis[-el+1000]) ans=max(ans,abs(el));
+            vis[el+1000]=1;
+        }
+        return ans;
+    }
+};
+/*
+class Solution {
+    //O(N) O(N)
 public:
     
     int findMaxK(vector<int>& nums) {
@@ -15,6 +31,7 @@ public:
         return ans;
     }
 };
+*/
 /*
 class Solution {
     //O(2N) O(N)
