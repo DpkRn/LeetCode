@@ -5,6 +5,24 @@ public:
     int findMaxK(vector<int>& nums) {
         int n=nums.size();
         unordered_set<int> st;
+        int ans=-1;
+        for(auto el:nums){
+            if(st.contains(-el)&&ans<abs(el)){
+                ans=abs(el);
+            }
+            st.insert(el);
+        }
+        return ans;
+    }
+};
+/*
+class Solution {
+    //O(2N) O(N)
+public:
+    
+    int findMaxK(vector<int>& nums) {
+        int n=nums.size();
+        unordered_set<int> st;
         for(int i=0;i<n;i++){
             if(nums[i]<0) st.insert(nums[i]);
         }
@@ -16,6 +34,7 @@ public:
         return maxi;
     }
 };
+*/
 /*
 class Solution {
     //O(NLOGN)
