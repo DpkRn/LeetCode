@@ -1,5 +1,5 @@
 class Solution {
-    //O(N) O(N)
+    //O(N)
 public:
     
     int findMaxK(vector<int>& nums) {
