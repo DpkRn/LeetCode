@@ -1,33 +1,41 @@
 class Solution {
 public:
-    int minimumTotal(vector<vector<int>>& triangle) {
-        int m=triangle.size();
-        int n=triangle[m-1].size();        
-        vector<int> dp(n+1,0);
-        for(int r=m-1;r>=0;r--){
-            for(int c=0;c<triangle[r].size();c++){
-                dp[c]=triangle[r][c]+min(dp[c],dp[c+1]);
+    int minimumTotal(vector<vector<int>>& t) {
+        int m=t.size();
+        int n=t[m-1].size();
+        vector<vector<int>> dp(m,vector<int>(n,1e9));
+        dp[0][0]=t[0][0];
+        for(int i=0;i<m-1;i++){
+            for(int j=0;j<t[i].size();j++){
+                dp[i+1][j]=min(t[i+1][j]+dp[i][j],dp[i+1][j]);
+                dp[i+1][j+1]=min(t[i+1][j+1]+dp[i][j],dp[i+1][j+1]);
             }
         }
-        return dp[0];
+        int ans=1e9;
+       for(auto it:dp[m-1])
+         ans=min(ans,it);
+        return ans;
     }
 };
-
 /*
 class Solution {
 public:
-    int f(int ind,int i,vector<vector<int>>& triangle,vector<vector<int>> &dp){
-        if(ind==triangle.size()) return 0;
-        if(dp[ind][i]!=-1) return dp[ind][i];     
-              int left=triangle[ind][i]+f(ind+1,i,triangle,dp);
-              int right=triangle[ind][i]+f(ind+1,i+1,triangle,dp);
-              return dp[ind][i]=min(left,right);      
-    }
-    int minimumTotal(vector<vector<int>>& triangle) {
-        int m=triangle.size();
-        int n=triangle[m-1].size();
-        vector<vector<int>> dp(m,vector<int>(n,-1));
-        return f(0,0,triangle,dp);
+    int minimumTotal(vector<vector<int>>& t) {
+        int m=t.size();
+        int n=t[m-1].size();
+        vector<vector<int>> dp(m,vector<int>(n,1e9));
+        dp[0][0]=t[0][0];
+        for(int i=1;i<m;i++){
+            for(int j=0;j<=i;j++){
+                int left=1e9;
+                if(j-1>=0) left=t[i][j]+dp[i-1][j-1];
+                dp[i][j]=min(left,dp[i-1][j]+t[i][j]);
+            }
+        }
+        int ans=1e9;
+       for(auto it:dp[m-1])
+         ans=min(ans,it);
+        return ans;
     }
 };
 */
