@@ -1,41 +1,52 @@
+
+//child[node]=total child connected including node only downwards
+//ans[node]=child[it]+ans[it];
+
 class Solution {
 public:
-    vector<int> cnt;
-    vector<int> ans;
+     vector<int> child;
+     vector<int> ans;
+     vector<int> vis;
     int N;
-    void dfs(int node,vector<int> adj[],int par){
-        for(auto child:adj[node]){
-            if(child!=par){
-                dfs(child,adj,node);
-                cnt[node]+=cnt[child];
-                ans[node]+=ans[child]+cnt[child];
+    int dfsGet(int node,vector<int> adj[]){
+        vis[node]=1;
+        for(auto it:adj[node]){
+            if(!vis[it]){
+               child[node]+=dfsGet(it,adj); 
+               ans[node]+=child[it]+ans[it];
+            }
+        }
+        return child[node];
+    }
+    
+    void dfsFromTop(int node,vector<int> adj[]){
+        vis[node]=1;
+        for(auto it:adj[node]){
+            if(!vis[it]){
+                                //remaining ans except down      + no of child except down  +  only down ans including it    
+                //    ans[it]=     ans[node]-(ans[it]+child[it]) +    (N - child[it] )      +     ans[it];      after simplifying becomes below
+                ans[it]=ans[node]-2*child[it]+N; 
+                dfsFromTop(it,adj);
             }
         }
     }
-    void dfs1(int node,vector<int> adj[],int par){
-        for(auto child:adj[node]){
-           if(par!=child){
-                ans[child]=ans[node]-cnt[child]+(N-cnt[child]);
-                dfs1(child,adj,node);
-           }          
-        }
-    }
     vector<int> sumOfDistancesInTree(int n, vector<vector<int>>& edges) {
-        vector<int> adj[n];
         N=n;
-        for(auto it:edges){     
-            adj[it[0]].push_back(it[1]);
-            adj[it[1]].push_back(it[0]);            
+        child=vector<int> (n,1);
+        ans=vector<int> (n,0);
+        vector<int> adj[n];
+        for(auto el:edges){
+            adj[el[0]].push_back(el[1]);
+            adj[el[1]].push_back(el[0]);
         }
-        cnt=vector<int>(n,1);
-        ans=vector<int>(n,0);
-    
-        dfs(0,adj,-1);
-        dfs1(0,adj,-1);
-        // for(auto it:ans)
-        //     cout<<it<<" ";
+        vis=vector<int>(n,0);
        
-    return ans;
+        dfsGet(0,adj);
+        for(auto it:child) cout<<it<<" ";
+        cout<<endl;
+        for(auto it:ans) cout<<it<<" ";
+         for(int i=0;i<n;i++) vis[i]=0;
+        dfsFromTop(0,adj);
+        return ans;
     }
-    
 };
