@@ -6,6 +6,18 @@
  *     ListNode(int x) : val(x), next(NULL) {}
  * };
  */
+//standard way
+class Solution {
+public:
+    void deleteNode(ListNode* node) {
+        ListNode* nextNode=node->next;
+        node->val=nextNode->val;
+        node->next=nextNode->next;
+        delete nextNode;
+    }
+};
+/*
+//not a standard way
 class Solution {
 public:
     void deleteNode(ListNode* node) {
@@ -18,3 +30,4 @@ public:
         temp->next=NULL;
     }
 };
+*/
