@@ -10,27 +10,21 @@
  */
 
 class Solution {
-    ListNode* solve(ListNode* prev,ListNode* next){
-        if(next->next==NULL){
-            next->next=prev;
-            return next;
-        }
-        ListNode* lastNode=solve(next,next->next);
-        next->next=prev;
-        return lastNode;
-        
+    ListNode* rev(ListNode* head){
+        if(head==NULL||head->next==NULL) return head;
+        ListNode* headNode=rev(head->next);
+        head->next->next=head;
+        head->next=NULL;
+        return headNode;       
     }
 public:
-    
     ListNode* reverseList(ListNode* head) {
-        ListNode* prev=NULL;
-        ListNode* temp=head;
-       if(head==NULL||head->next==NULL) return head;
-       
-       return  solve(prev,head);
+        
+        return rev(head);
         
     }
 };
+
 /*
 class Solution {
 public:
@@ -53,19 +47,25 @@ public:
 /* 
 
 O(N) O(N)
-
 class Solution {
-    ListNode* rev(ListNode* head){
-        if(head==NULL||head->next==NULL) return head;
-        ListNode* headNode=rev(head->next);
-        head->next->next=head;
-        head->next=NULL;
-        return headNode;       
+    ListNode* solve(ListNode* prev,ListNode* next){
+        if(next->next==NULL){
+            next->next=prev;
+            return next;
+        }
+        ListNode* lastNode=solve(next,next->next);
+        next->next=prev;
+        return lastNode;
+        
     }
 public:
+    
     ListNode* reverseList(ListNode* head) {
-        
-        return rev(head);
+        ListNode* prev=NULL;
+        ListNode* temp=head;
+       if(head==NULL||head->next==NULL) return head;
+       
+       return  solve(prev,head);
         
     }
 };
