@@ -13,8 +13,7 @@ public:
             pq.pop();
             if(top-decr>=0)
             h+=(long long)(top-decr);
-            decr++;
-            
+            decr++;       
         }
         
         return h;
