@@ -1,5 +1,26 @@
 class Solution {
+public://O(n+m)log(k)
+    int kthSmallest(vector<vector<int>>& matrix, int k) {
+        int n=matrix.size();
+        priority_queue<vector<int>,vector<vector<int>>,greater<>> pq;
+        for(int i=0;i<min(n,k);i++){
+            pq.push({matrix[i][0],i,0});
+        }
+        for(int i=1;i<=k-1;i++){
+            int r=pq.top()[1];
+            int c=pq.top()[2];
+            pq.pop();
+            if(c+1<n) pq.push({matrix[r][c+1],r,c+1});
+        }
+        return pq.top()[0];
+    }
+};
+
+
+/*
+class Solution {
 public:
+    //Binary Search on answer (nlogn) o(1)
     int getSmallerThanM(auto &mat,int m){
         int n=mat.size();
         int cnt=0;
@@ -26,6 +47,23 @@ public:
         return ans;
     }
 };
+*/
+/*
+class Solution {
+public://using max-heap  O(mnlogk) O(k)
+    int kthSmallest(vector<vector<int>>& matrix, int k) {
+        priority_queue<int> pq;
+        int n=matrix.size();
+        for(auto it:matrix){
+            for(auto el:it){
+                pq.push(el);
+                if(pq.size()>k) pq.pop();
+            }
+        }
+        return pq.top();
+    }
+};
+*/
 
 /*
 class Solution {
