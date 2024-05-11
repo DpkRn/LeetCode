@@ -1,24 +1,38 @@
 class Solution {
 public:
+//     int getLessThanK(auto &nums,int k){
+//         int n=nums.size();
+        
+//         int cnt=0;
+//         for(int i=0;i<n;i++){
+//             int l=i+1; int r=n-1;
+//             while(l<=r){
+//                 int mid=(l+(r-l)/2);
+//                 if(abs(nums[mid]-nums[i])>k){
+//                     r=mid-1;
+//                 }else{
+//                     l=mid+1;
+//                 }
+//             }
+//             cnt=(cnt+(l-(i+1))%(int)(1e9+7));
+//         }
+//         return cnt;
+//     }
     int getLessThanK(auto &nums,int k){
         int n=nums.size();
         
         int cnt=0;
+        int j=0;
         for(int i=0;i<n;i++){
-            int l=i+1; int r=n-1;
-            while(l<=r){
-                int mid=(l+(r-l)/2);
-                if(abs(nums[mid]-nums[i])>k){
-                    r=mid-1;
-                }else{
-                    l=mid+1;
-                }
-            }
-            cnt=(cnt+(l-(i+1))%(int)(1e9+7));
+            while(nums[i]-nums[j]>k) j++;
+            if(nums[i]-nums[j]<=k) cnt+=(i-j);
         }
-       // cout<<cnt<<" ";
+        cout<<cnt<<" ";
         return cnt;
     }
+    
+    
+    
     int smallestDistancePair(vector<int>& nums, int k) {
         int n=nums.size();
         sort(nums.begin(),nums.end());
