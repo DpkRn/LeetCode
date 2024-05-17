@@ -11,23 +11,17 @@
  */
 class Solution {
 public:
-    TreeNode* dfs(TreeNode* root,int target){
-        if(root==NULL) return NULL;
-        TreeNode* left=dfs(root->left,target);
-        TreeNode* right=dfs(root->right,target);
-        if(left!=NULL&&left->left==NULL&&left->right==NULL&&left->val==target){
-            root->left=NULL;
+    TreeNode* dfs(TreeNode* root, int target){
+        if(!root) return root;
+        root->left=dfs(root->left,target);
+        root->right=dfs(root->right,target);
+        if (!root->left && !root->right && root->val==target) {
+            //delete root;
+            return nullptr;
         }
-        if(right!=NULL&&right->left==NULL&&right->right==NULL&&right->val==target){
-            root->right=NULL;
-        }
-        return root;
+        return root;
     }
     TreeNode* removeLeafNodes(TreeNode* root, int target) {
-       
-        TreeNode* ans=dfs(root,target);
-        if(ans==NULL) return NULL;
-        if(ans->left==NULL&&ans->right==NULL&&ans->val==target) ans=NULL;
-        return ans;
-    }
+        return dfs(root,target);
+    }
 };
