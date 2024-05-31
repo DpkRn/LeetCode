@@ -1,20 +1,24 @@
 class Solution {
 public:
+    //by staying at one index calculate prefix and store the result on stayed index
+    //if its zero that means all index between i and j can make value 0
+    //because a and b are countinues index xor so if a==b that means it will also be a^b=0 so that 
+    //instead of checking all the indices only cheking from i to j which is given me 0; and cnt all the indices beetween  i and j
     int countTriplets(vector<int>& arr) {
-        int n=arr.size(),cnt=0;
-        vector<int> dp(n,0);
-        dp[0]=arr[0];
-        
-        for(int i=0;i<n-1;i++){
-            for(int j=i+1;j<n;j++){
-                for(int k=j;k<n;k++){
-                    dp[k]=dp[k-1]^arr[k];
-                    int a=dp[j-1]^dp[i]^arr[i];
-                    int b=dp[k]^dp[j]^arr[j];
-                    if(a==b) cnt++;
+        int sz=arr.size();
+        int ans=0;
+        for(int i=0;i<sz;i++)
+        {
+            for(int j=i+1;j<sz;j++)
+            {
+                arr[i]=arr[i]^arr[j];
+                if(arr[i]==0)
+                {
+                   ans+=j-i;
                 }
             }
         }
-        return cnt;
+        return ans;
+        
     }
 };
