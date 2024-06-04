@@ -10,22 +10,22 @@ public:
             }
         }
         
-        unordered_set<char> st;
+        unordered_map<char,bool> mp;
         int maxi=pq.top().first;
         while(!pq.empty()){
             int t=pq.top().first; char c=pq.top().second;
             if(t==maxi){
-                st.insert(c);
+                mp[c]=true;
             }else break;
             pq.pop();
         }
         string ans="";
         int n=s.size();
         for(int i=n-1;i>=0;i--){
-            if(st.empty()) break;
-            if(st.contains(s[i])){
+            if(mp.empty()) break;
+            if(mp.find(s[i])!=mp.end()){
                 ans.push_back(s[i]);
-                st.erase(s[i]);
+                mp.erase(s[i]);;
             }
                 
         }
