@@ -1,31 +1,30 @@
 class Solution {
 public:
+    vector<int> get(int i,vector<int> hash,vector<string>& words){
+        if(i>=words.size()) return hash;
+        vector<int> curr(26,0);
+        for(int j=0;j<words[i].size();j++){
+            curr[words[i][j]-97]++;
+        }
+        for(int i=0;i<26;i++){
+            hash[i]=min(hash[i],curr[i]);
+        }
+        return get(i+1,hash,words);
+    }
     vector<string> commonChars(vector<string>& words) {
-        int n=words.size();
-        vector<vector<int>> hash(n,vector<int>(26,0));
-        for(int i=0;i<n;i++){
-            for(int j=0;j<words[i].size();j++){
-                hash[i][words[i][j]-97]++;
-            }
+        vector<int> hash(26,0);
+        for(auto i=0;i<words[0].size();i++){
+            hash[words[0][i]-97]++;
         }
-        
+        hash=get(0,hash,words);
         vector<string> ans;
-        string str="";
-        for(int j=0;j<26;j++){
-            int mini=1e9;
-            for(int i=0;i<n;i++){
-               mini=min(mini,hash[i][j]);
+        for(int i=0;i<26;i++){
+            char c=i+97;
+            string s=""; s.push_back(c);
+            for(int j=0;j<hash[i];j++){
+
+                ans.push_back(s);
             }
-            char c=j+97;
-            for(int k=0;k<mini;k++){
-                str+=c;
-            }
-        }
-        cout<<str;
-        for(int i=0;i<str.size();i++){
-            string s="";
-            s.push_back(str[i]);
-            ans.push_back(s);
         }
         return ans;
     }
