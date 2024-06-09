@@ -2,6 +2,26 @@ class Solution {
 public:
     int subarraysDivByK(vector<int>& nums, int k) {
         int n=nums.size();
+        int cnt=0;
+        unordered_map<int,int> mp;
+        mp[0]=1;
+        int sum=0;
+        for(int i=0;i<n;i++){
+            sum+=nums[i];
+            int positiveReminder=(sum%k+k)%k;
+            cnt+=mp[positiveReminder];
+            mp[positiveReminder]++;
+        }
+        return cnt;
+    }
+};
+
+/*
+
+class Solution {
+public:
+    int subarraysDivByK(vector<int>& nums, int k) {
+        int n=nums.size();
         vector<int> dp(n+1);
         dp[0]=0;
         for(int i=1;i<=n;i++){
@@ -23,3 +43,5 @@ public:
         return cnt;
     }
 };
+
+*/
