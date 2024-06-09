@@ -1,19 +1,20 @@
-
-
-//using DFS
-
 class Solution {
 public:
-    bool search(int r,int c,string word,int ind,vector<vector<char>>&board){
-        if(ind==word.size()) return true;
-        if(r<0||c<0||r==board.size()||c==board[0].size()||board[r][c]!=word[ind]) return false;
-        board[r][c]='#';
-        bool up=search(r-1,c,word,ind+1,board);
-        bool right=search(r,c+1,word,ind+1,board);
-        bool down=search(r+1,c,word,ind+1,board);
-        bool left=search(r,c-1,word,ind+1,board);
-        board[r][c]=word[ind];
-        return up||right||down||left;
+    int dx[4]={0,0,-1,1};
+    int dy[4]={1,-1,0,0};
+    bool dfs(int r,int c,int ind,vector<vector<char>>& board, string word,int m,int n){
+        if(ind>=word.size()) return true;
+        char org=board[r][c];
+            board[r][c]='#';
+         for(int i=0;i<4;i++){
+             int newx=r+dx[i],newy=dy[i]+c;
+             if(newx>=0&&newy>=0&&newx<m&&newy<n&&board[newx][newy]!='#'&&board[newx][newy]==word[ind]){
+             if(dfs(newx,newy,ind+1,board,word,m,n))
+                return true;
+             }
+          }
+        board[r][c]=org;
+        return false;
         
     }
     bool exist(vector<vector<char>>& board, string word) {
@@ -21,11 +22,9 @@ public:
         int n=board[0].size();
         for(int i=0;i<m;i++){
             for(int j=0;j<n;j++){
-                if(board[i][j]==word[0]){
-                    if(search(i,j,word,0,board))
-                        return true;
+                if(word[0]==board[i][j]){
+                    if(dfs(i,j,1,board,word,m,n)) return true;
                 }
-                
             }
         }
         return false;
