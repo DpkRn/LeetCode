@@ -1,15 +1,15 @@
-class TrieNode{
-    public:
-    bool isCompleted;
-    TrieNode *children[26];
-    TrieNode(){
-        isCompleted=false;
-        memset(children,0,sizeof(children));
-    }
-    
-};
 
 class Trie { 
+    class TrieNode{
+        public:
+        bool isCompleted;
+        TrieNode *children[26];
+        TrieNode(){
+            isCompleted=false;
+            memset(children,0,sizeof(children));
+        }
+    };
+
     TrieNode* root;
     
 public:
