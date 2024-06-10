@@ -1,11 +1,7 @@
 class TrieNode{
     public:
-    bool isCompleted;
-    int len;
     TrieNode* children[10];
     TrieNode(){
-        len=0;
-        isCompleted=false;
         memset(children,0,sizeof(children));
     }
    
@@ -20,17 +16,13 @@ public:
             num/=10;
         }
         reverse(rev_arr.begin(),rev_arr.end());
-        int len=1;
         for(auto ch:rev_arr){
             int idx=ch;
-            if(node->children[idx]==NULL){
-                node->children[idx]=new TrieNode();
-            }
+            if(node->children[idx]==NULL) node->children[idx]=new TrieNode();
             node=node->children[idx];
-            node->len=len++;
         }
-        node->isCompleted=true;
     }
+    
     int search(TrieNode* root,int num){
         TrieNode* node=root;
         vector<int> rev_arr;
@@ -39,16 +31,14 @@ public:
             num/=10;
         }
         reverse(rev_arr.begin(),rev_arr.end());
-        int len=1;
+        int len=0;
         for(auto ch:rev_arr){
             int idx=ch;
-            if(node->children[idx]==NULL){
-                return node->len;
-            }
+            if(node->children[idx]==NULL) return len; 
             node=node->children[idx];
-            node->len=len++;
+            len++;
         }
-        return node->len;
+        return len;
         
     }
     int longestCommonPrefix(vector<int>& arr1, vector<int>& arr2) {
