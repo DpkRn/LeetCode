@@ -1,5 +1,25 @@
 class Solution {
 public:
+    bool dfs(int i,string s,unordered_set<string> &st,vector<int> &dp){
+        if(i>=s.size()) return true;
+        if(dp[i]!=-1) return dp[i];
+        string str="";
+        for(int j=i;j<s.size();j++){
+            str+=s[j];
+            if(st.contains(str)&&dfs(j+1,s,st,dp)) return dp[i]=true;     
+        }
+        return dp[i]=false;
+    }
+    bool wordBreak(string s, vector<string>& wordDict) {
+        unordered_set<string> st;
+        vector<int> dp(s.size(),-1);
+        for(auto str:wordDict) st.insert(str);
+        return dfs(0,s,st,dp);
+    }
+};
+/*
+class Solution {
+public:
     bool wordBreak(string s, vector<string>& wordDict) {
         unordered_set<string> st;
         for(auto &str:wordDict) st.insert(str);
@@ -15,25 +35,6 @@ public:
         }
         
         return dp[n];
-    }
-};
-/*
-//brute force
-class Solution {
-public:
-    bool dfs(int i,string s,unordered_set<string> &st){
-        if(i>=s.size()) return true;
-        string str="";
-        for(int j=i;j<s.size();j++){
-            str+=s[j];
-            if(st.contains(str)&&dfs(j+1,s,st)) return true;     
-        }
-        return false;
-    }
-    bool wordBreak(string s, vector<string>& wordDict) {
-        unordered_set<string> st;
-        for(auto str:wordDict) st.insert(str);
-        return dfs(0,s,st);
     }
 };
 
