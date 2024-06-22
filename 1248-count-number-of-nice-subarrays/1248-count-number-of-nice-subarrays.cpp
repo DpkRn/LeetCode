@@ -1,20 +1,22 @@
 class Solution {
 public:
-    //to get strictely equal to we will find first <=k and after that we will substact <=k-1
-    int get(auto &nums,int k){
+    int get(vector<int>& nums, int k){
+        if(k<0) return 0; 
         int n=nums.size();
-        int l=0,cnt=0,odd=0;
+        int l=0;
+        int oddcnt=0;
+        int ans=0;
         for(int i=0;i<n;i++){
-            if(nums[i]%2==1) odd++;
-            while(odd>k){
-                if(nums[l]%2==1) odd--;l++;
+            if(nums[i]%2==1) oddcnt++;
+            while(oddcnt>k){
+                if(nums[l]%2==1) oddcnt--;
+                l++;
             }
-            if(odd<=k) cnt+=(i-l+1);
+            if(oddcnt<=k) ans+=(i-l+1);
         }
-        return cnt;
+        return ans;
     }
     int numberOfSubarrays(vector<int>& nums, int k) {
-        return get(nums,k)-get(nums,k-1);
-        
+       return get(nums,k)-get(nums,k-1);
     }
 };
