@@ -12,17 +12,17 @@
 class Solution {
 public:
     
-    vector<int> arr;
+    vector<TreeNode*> arr;
     void inorder(TreeNode* root){
         if(!root) return;
         inorder(root->left);
-        arr.push_back(root->val);
+        arr.push_back(root);
         inorder(root->right);
     }
     TreeNode* solve(int low,int high){
         if(low>high) return NULL ;
         int mid=(low+high)/2;
-        TreeNode* node=new TreeNode(arr[mid]);
+        TreeNode* node=arr[mid];
         node->left=solve(low,mid-1);
         node->right=solve(mid+1,high);
         return node;
