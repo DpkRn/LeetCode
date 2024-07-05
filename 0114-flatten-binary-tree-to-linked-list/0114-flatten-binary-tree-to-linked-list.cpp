@@ -11,18 +11,19 @@
  */
 class Solution {
 public:
-    TreeNode* getRight(TreeNode* root){
-        if(root->right==NULL) return root;
-        return getRight(root->right);
-    }
+//moris traversal
     void flatten(TreeNode* root) {
-        if(!root) return;
-        if(root->left){
-        TreeNode* temp=root->right;
-        root->right=root->left;
-        root->left=NULL;
-        getRight(root->right)->right=temp;
-        }
-        flatten(root->right);
+        TreeNode* curr=root;
+        while(curr!=NULL){
+            if(curr->left!=NULL){
+                TreeNode* temp=curr->right;
+                TreeNode* prev=curr->left;
+                while(prev->right!=NULL) prev=prev->right;
+                prev->right=temp;
+                curr->right=curr->left;
+                curr->left=NULL;
+            }
+            curr=curr->right;
+        }     
     }
 };
