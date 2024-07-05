@@ -2,4 +2,4 @@
 SELECT email
 FROM Person
 GROUP BY email
-HAVING COUNT(DISTINCT id)>1
+HAVING COUNT(email)>1
