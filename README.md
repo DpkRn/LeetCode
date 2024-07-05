@@ -62,4 +62,8 @@ Request: if you think any of the problem still can be optimise then please.. try
 |  |
 | ------- |
 | [2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points](https://github.com/DpkRn/LeetCode/tree/master/2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points) |
+## Database
+|  |
+| ------- |
+| [0175-combine-two-tables](https://github.com/DpkRn/LeetCode/tree/master/0175-combine-two-tables) |
 <!---LeetCode Topics End-->
