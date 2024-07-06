@@ -83,4 +83,12 @@ Request: if you think any of the problem still can be optimise then please.. try
 |  |
 | ------- |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/DpkRn/LeetCode/tree/master/0114-flatten-binary-tree-to-linked-list) |
+## Math
+|  |
+| ------- |
+| [2645-pass-the-pillow](https://github.com/DpkRn/LeetCode/tree/master/2645-pass-the-pillow) |
+## Simulation
+|  |
+| ------- |
+| [2645-pass-the-pillow](https://github.com/DpkRn/LeetCode/tree/master/2645-pass-the-pillow) |
 <!---LeetCode Topics End-->
