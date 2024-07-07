@@ -13,6 +13,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 ## Depth-First Search
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/DpkRn/LeetCode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/DpkRn/LeetCode/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/DpkRn/LeetCode/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 ## Breadth-First Search
@@ -74,14 +75,17 @@ Request: if you think any of the problem still can be optimise then please.. try
 ## Stack
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/DpkRn/LeetCode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/DpkRn/LeetCode/tree/master/0114-flatten-binary-tree-to-linked-list) |
 ## Tree
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/DpkRn/LeetCode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/DpkRn/LeetCode/tree/master/0114-flatten-binary-tree-to-linked-list) |
 ## Binary Tree
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/DpkRn/LeetCode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/DpkRn/LeetCode/tree/master/0114-flatten-binary-tree-to-linked-list) |
 ## Math
 |  |
