@@ -39,6 +39,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | [0350-intersection-of-two-arrays-ii](https://github.com/DpkRn/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [1293-three-consecutive-odds](https://github.com/DpkRn/LeetCode/tree/master/1293-three-consecutive-odds) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/DpkRn/LeetCode/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
+| [1720-crawler-log-folder](https://github.com/DpkRn/LeetCode/tree/master/1720-crawler-log-folder) |
 | [1803-average-waiting-time](https://github.com/DpkRn/LeetCode/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/DpkRn/LeetCode/tree/master/1951-find-the-winner-of-the-circular-game) |
 ## Hash Table
@@ -79,6 +80,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/DpkRn/LeetCode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/DpkRn/LeetCode/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [1720-crawler-log-folder](https://github.com/DpkRn/LeetCode/tree/master/1720-crawler-log-folder) |
 ## Tree
 |  |
 | ------- |
@@ -110,4 +112,8 @@ Request: if you think any of the problem still can be optimise then please.. try
 |  |
 | ------- |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/DpkRn/LeetCode/tree/master/1951-find-the-winner-of-the-circular-game) |
+## String
+|  |
+| ------- |
+| [1720-crawler-log-folder](https://github.com/DpkRn/LeetCode/tree/master/1720-crawler-log-folder) |
 <!---LeetCode Topics End-->
