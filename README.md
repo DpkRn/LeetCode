@@ -36,6 +36,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 ## Array
 |  |
 | ------- |
+| [0051-n-queens](https://github.com/DpkRn/LeetCode/tree/master/0051-n-queens) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/DpkRn/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [1293-three-consecutive-odds](https://github.com/DpkRn/LeetCode/tree/master/1293-three-consecutive-odds) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/DpkRn/LeetCode/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
@@ -118,4 +119,8 @@ Request: if you think any of the problem still can be optimise then please.. try
 | ------- |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/DpkRn/LeetCode/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1720-crawler-log-folder](https://github.com/DpkRn/LeetCode/tree/master/1720-crawler-log-folder) |
+## Backtracking
+|  |
+| ------- |
+| [0051-n-queens](https://github.com/DpkRn/LeetCode/tree/master/0051-n-queens) |
 <!---LeetCode Topics End-->
