@@ -1,44 +1,33 @@
 class Solution {
 public:
     vector<int> survivedRobotsHealths(vector<int>& positions, vector<int>& healths, string directions) {
-        stack<pair<pair<char,int>,int>> st;
+        stack<pair<char,pair<int,int>>> st;
         vector<vector<int>> v;
-
         int n=positions.size();
         for(int i=0;i<n;i++){
             v.push_back({positions[i],i});
         }
         sort(v.begin(),v.end());
-
-        for(int i=0;i<n;i++){
-            if(st.empty()||(st.top().first.first==directions[v[i][1]])||(st.top().first.first=='L'&&directions[v[i][1]]=='R')){
-                st.push({{directions[v[i][1]],healths[v[i][1]]},v[i][1]});
+        int i=0;
+        while(i<n){
+            if(st.empty()||st.top().first=='L'||directions[v[i][1]]=='R'){
+                st.push({directions[v[i][1]],{v[i][1],healths[v[i][1]]}});
             }else{
-                if(st.top().first.second==healths[v[i][1]]){
-                    st.pop();
-                }else if(st.top().first.second>healths[v[i][1]]){
-                    st.top().first.second-=1;
+                if(st.top().second.second==healths[v[i][1]]){
+                    st.pop(); 
+                }else if(st.top().second.second<healths[v[i][1]]){
+                    st.pop(); healths[v[i][1]]-=1;
+                    continue;
                 }else{
-                    while(!st.empty()&&(st.top().first.first=='R'&&directions[v[i][1]]=='L')&&(st.top().first.second<healths[v[i][1]])){
-                        st.pop();
-                        healths[v[i][1]]-=1;
-                    }
-                    if(st.empty()&&healths[v[i][1]]>0||st.top().first.first==directions[v[i][1]]||st.top().first.first=='L'&&directions[v[i][1]]=='R'){
-                        st.push({{directions[v[i][1]],healths[v[i][1]]},v[i][1]});
-                       
-                    }else if(st.top().first.second==healths[v[i][1]]){
-                            st.pop();
-                           
-                    }else{
-                        st.top().first.second-=1;
-                    }
+                    st.top().second.second-=1;
                 }
             }
+            i++;
         }
-
-         vector<pair<int,int>> ans;
+        
+        vector<pair<int,int>> ans;
         while(!st.empty()){
-            ans.push_back({st.top().second,st.top().first.second});
+            ans.push_back({st.top().second.first,st.top().second.second});
             st.pop();
         }
         sort(ans.begin(),ans.end());
