@@ -43,6 +43,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | [1720-crawler-log-folder](https://github.com/DpkRn/LeetCode/tree/master/1720-crawler-log-folder) |
 | [1803-average-waiting-time](https://github.com/DpkRn/LeetCode/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/DpkRn/LeetCode/tree/master/1951-find-the-winner-of-the-circular-game) |
+| [2846-robot-collisions](https://github.com/DpkRn/LeetCode/tree/master/2846-robot-collisions) |
 ## Hash Table
 |  |
 | ------- |
@@ -60,6 +61,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | ------- |
 | [0350-intersection-of-two-arrays-ii](https://github.com/DpkRn/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/DpkRn/LeetCode/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
+| [2846-robot-collisions](https://github.com/DpkRn/LeetCode/tree/master/2846-robot-collisions) |
 ## Greedy
 |  |
 | ------- |
@@ -85,6 +87,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/DpkRn/LeetCode/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1720-crawler-log-folder](https://github.com/DpkRn/LeetCode/tree/master/1720-crawler-log-folder) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/DpkRn/LeetCode/tree/master/1818-maximum-score-from-removing-substrings) |
+| [2846-robot-collisions](https://github.com/DpkRn/LeetCode/tree/master/2846-robot-collisions) |
 ## Tree
 |  |
 | ------- |
@@ -108,6 +111,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | [1803-average-waiting-time](https://github.com/DpkRn/LeetCode/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/DpkRn/LeetCode/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2645-pass-the-pillow](https://github.com/DpkRn/LeetCode/tree/master/2645-pass-the-pillow) |
+| [2846-robot-collisions](https://github.com/DpkRn/LeetCode/tree/master/2846-robot-collisions) |
 ## Recursion
 |  |
 | ------- |
