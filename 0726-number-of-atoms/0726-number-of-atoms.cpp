@@ -1,71 +1,69 @@
 class Solution {
 public:
-    string countOfAtoms(string formula) {
-        int n=formula.size();
-        stack<pair<string,int>> st;
+    int getNumber(string str, int &index) {
+        int number=0, temp;
+        while (isdigit(str[index])) {
+            temp = str[index] - '0';
+            number *= 10;
+            number += temp;
+            index++;
+        }
+        return number;
+    }
+    string getName(string str, int &index) {
+        string name = string(1, str[index]);
+        index++;
+        while (index < str.length() && 'a' <= str[index] && str[index] <= 'z') {
+            name += str[index];
+            index++;
+        }
+        return name;
+    }
+    map<string, int> solve(string formula) {
         int i=0;
-        while(i<n){
-             
-            if(isupper(formula[i])){
-               char ch=formula[i];
-               string str="";
-               str+=ch;
-               i++;
-                while(i<n&&islower(formula[i])) {
-                    char ch=formula[i];
-                    str+=ch;
+        map<string, int> ans;
+        while (i < formula.length()) {
+            if (formula[i] == '(') {
+                int left = i+1, right;
+                int temp = 1;
+                while (temp > 0) {
                     i++;
+                    if (formula[i] == '(') temp++;
+                    else if (formula[i] == ')') temp--;
                 }
-                string digits="";
-                while(i<n&&isdigit(formula[i])){
-                    char ch=formula[i];
-                    digits+=ch;
-                    i++;
-                }
-                if(digits=="") digits="1";
-                int count=stoi(digits);
-                cout<<str<<" "<<count<<endl;
-                st.push({str,count});
-            }else if(formula[i]=='('){
-               st.push({"(",-1});
-               i++;
-            }else if(formula[i]==')'){
+                right = i;
                 i++;
-                string digits="";
-                while(i<n&&isdigit(formula[i])){
-                    char ch=formula[i];
-                    digits+=ch;
-                    i++;
+                map<string, int> subAns = solve(formula.substr(left, (right-left)));
+                int number = 1;
+                if (isdigit(formula[i])) {
+                    number = getNumber(formula, i);
                 }
-                if(digits=="") digits="1";
-                int count = stoi(digits);
-                vector<pair<string,int>> temp;
-                while(st.top().first!="("){
-                    temp.push_back({st.top().first,count*st.top().second});
-                    st.pop();
+                for (auto el: subAns) {
+                    ans[el.first] += (el.second*number);
                 }
-                st.pop();
-                while(!temp.empty()){
-                    st.push({temp.back()});
-                    temp.pop_back();
-                }
-
             }
-            
+            else if (isalpha(formula[i])) {
+                string name = getName(formula, i);
+                if (isdigit(formula[i])) {
+                    int number = getNumber(formula, i);
+                    ans[name] += number;
+                } else {
+                    ans[name]++;
+                }
+            }
         }
-        map<string,int> mp;
-        while(!st.empty()){
-            mp[st.top().first]+=st.top().second;
-            st.pop();
-        } 
-
-        string str="";
-        for(auto it:mp){
-            string el=it.first;
-            int cnt=it.second;
-            string t=cnt!=1?to_string(cnt):"";
-            str+=el+t;
+        return ans;
+    }
+    string countOfAtoms(string formula) {
+        map<string, int> ansMap = solve(formula);
+        string ans = "";
+        for (auto el: ansMap) {
+            if (el.second == 1) {
+                ans += el.first;
+            } else {
+                ans += el.first + to_string(el.second);
+            }
         }
-        return str;
+        return ans;
     }
 };
