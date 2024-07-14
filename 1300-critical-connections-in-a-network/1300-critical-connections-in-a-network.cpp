@@ -20,6 +20,7 @@ public:
                     ans.push_back({u,v});
                 }
             }else{
+                //low[u]=min(low[u],time[u]); this can also work
                 low[u]=min(low[u],time[v]);
             }
         }  
