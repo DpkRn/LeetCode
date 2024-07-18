@@ -24,8 +24,8 @@ int cnt=0;
                 if(itLeft+itRight<=d) cnt++;
             }
         } 
-        for(auto itLeft:left)   temp.push_back(itLeft+1);
-        for(auto itRight:right) temp.push_back(itRight+1);
+        for(auto itLeft:left) if(itLeft+1<=d)  temp.push_back(itLeft+1);
+        for(auto itRight:right) if(itRight+1<=d) temp.push_back(itRight+1);
         return temp;
     }
     int countPairs(TreeNode* root, int distance) {
