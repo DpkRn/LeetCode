@@ -18,6 +18,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | [1207-delete-nodes-and-return-forest](https://github.com/DpkRn/LeetCode/tree/master/1207-delete-nodes-and-return-forest) |
 | [1300-critical-connections-in-a-network](https://github.com/DpkRn/LeetCode/tree/master/1300-critical-connections-in-a-network) |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/DpkRn/LeetCode/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
+| [1653-number-of-good-leaf-nodes-pairs](https://github.com/DpkRn/LeetCode/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/DpkRn/LeetCode/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 ## Breadth-First Search
 |  |
@@ -105,6 +106,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | [0094-binary-tree-inorder-traversal](https://github.com/DpkRn/LeetCode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/DpkRn/LeetCode/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [1207-delete-nodes-and-return-forest](https://github.com/DpkRn/LeetCode/tree/master/1207-delete-nodes-and-return-forest) |
+| [1653-number-of-good-leaf-nodes-pairs](https://github.com/DpkRn/LeetCode/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/DpkRn/LeetCode/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/DpkRn/LeetCode/tree/master/2306-create-binary-tree-from-descriptions) |
 ## Binary Tree
@@ -113,6 +115,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | [0094-binary-tree-inorder-traversal](https://github.com/DpkRn/LeetCode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/DpkRn/LeetCode/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [1207-delete-nodes-and-return-forest](https://github.com/DpkRn/LeetCode/tree/master/1207-delete-nodes-and-return-forest) |
+| [1653-number-of-good-leaf-nodes-pairs](https://github.com/DpkRn/LeetCode/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/DpkRn/LeetCode/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/DpkRn/LeetCode/tree/master/2306-create-binary-tree-from-descriptions) |
 ## Math
