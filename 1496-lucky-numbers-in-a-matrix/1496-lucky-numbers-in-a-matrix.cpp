@@ -3,30 +3,62 @@ public:
     vector<int> luckyNumbers (vector<vector<int>>& matrix) {
         int m=matrix.size();
         int n=matrix[0].size();
-
-        unordered_map<int,int> mp;
+        int row[m],col[n];
 
         for(int i=0;i<m;i++){
-           int mini=1e9;
+            row[i]=1e9;
             for(int j=0;j<n;j++){
-               mini=min(matrix[i][j],mini);  
+                row[i]=min(matrix[i][j],row[i]);  
             }
-            mp[i]=mini;
         }
 
-        vector<int> ans;
-        
         for(int i=0;i<n;i++){
-            int maxi=-1e9;
-            int max_ind;
+            col[i]=-1e9;
             for(int j=0;j<m;j++){
-                if(matrix[j][i]>maxi){
-                    maxi=matrix[j][i];
-                    max_ind=j;
-                } 
+                col[i]=max(matrix[j][i],col[i]);  
             }
-            if(mp[max_ind]==maxi) ans.push_back(maxi);
+        }
+        vector<int> ans;
+        for(int i=0;i<m;i++){
+            for(int j=0;j<n;j++){
+                if(row[i]==col[j]) ans.push_back(row[i]);
+            }
         }
         return ans;
     }
 };
+
+/*
+//using unordered_map
+
+class Solution {
+public:
+    vector<int> luckyNumbers (vector<vector<int>>& matrix) {
+        int m=matrix.size();
+        int n=matrix[0].size();
+        int row[m],col[n];
+
+        for(int i=0;i<m;i++){
+            row[i]=1e9;
+            for(int j=0;j<n;j++){
+                row[i]=min(matrix[i][j],row[i]);  
+            }
+        }
+
+        for(int i=0;i<n;i++){
+            col[i]=-1e9;
+            for(int j=0;j<m;j++){
+                col[i]=max(matrix[j][i],col[i]);  
+            }
+        }
+        vector<int> ans;
+        for(int i=0;i<m;i++){
+            for(int j=0;j<n;j++){
+                if(row[i]==col[j]) ans.push_back(row[i]);
+            }
+        }
+        return ans;
+    }
+};
+
+*/
