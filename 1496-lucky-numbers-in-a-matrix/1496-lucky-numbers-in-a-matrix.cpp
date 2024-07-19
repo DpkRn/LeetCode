@@ -16,7 +16,7 @@ public:
             }
             st.insert(StringPair({i,mini}));
         }
-         vector<int> ans;
+        vector<int> ans;
         for(int i=0;i<n;i++){
             int maxi=-1e9;
             int max_ind;
@@ -25,16 +25,9 @@ public:
                     maxi=matrix[j][i];
                     max_ind=j;
                 } 
-               
             }
-            if(st.find(StringPair({max_ind,maxi}))!=st.end()) ans.push_back(maxi);
+            if(st.contains(StringPair({max_ind,maxi}))) ans.push_back(maxi);
         }
-       
-        // for(int i=0;i<m;i++){
-        //     for(int j=0;j<n;j++){
-        //         if(row[i]==col[j]) ans.push_back(row[i]);
-        //     }
-        // }
         return ans;
     }
 };
