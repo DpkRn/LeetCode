@@ -1,29 +1,40 @@
 class Solution {
 public:
+    string StringPair(pair<int, int> x){
+        return to_string(x.first) + ";" + to_string(x.second);
+    }
     vector<int> luckyNumbers (vector<vector<int>>& matrix) {
         int m=matrix.size();
         int n=matrix[0].size();
-        int row[m],col[n];
+        
+        unordered_set<string> st;
 
         for(int i=0;i<m;i++){
-            row[i]=1e9;
+           int mini=1e9;
             for(int j=0;j<n;j++){
-                row[i]=min(matrix[i][j],row[i]);  
+               mini=min(matrix[i][j],mini);  
             }
+            st.insert(StringPair({i,mini}));
         }
-
+         vector<int> ans;
         for(int i=0;i<n;i++){
-            col[i]=-1e9;
+            int maxi=-1e9;
+            int max_ind;
             for(int j=0;j<m;j++){
-                col[i]=max(matrix[j][i],col[i]);  
+                if(matrix[j][i]>maxi){
+                    maxi=matrix[j][i];
+                    max_ind=j;
+                } 
+               
             }
+            if(st.find(StringPair({max_ind,maxi}))!=st.end()) ans.push_back(maxi);
         }
-        vector<int> ans;
-        for(int i=0;i<m;i++){
-            for(int j=0;j<n;j++){
-                if(row[i]==col[j]) ans.push_back(row[i]);
-            }
-        }
+       
+        // for(int i=0;i<m;i++){
+        //     for(int j=0;j<n;j++){
+        //         if(row[i]==col[j]) ans.push_back(row[i]);
+        //     }
+        // }
         return ans;
     }
 };
