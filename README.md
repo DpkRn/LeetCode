@@ -64,6 +64,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | ------- |
 | [0350-intersection-of-two-arrays-ii](https://github.com/DpkRn/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0726-number-of-atoms](https://github.com/DpkRn/LeetCode/tree/master/0726-number-of-atoms) |
+| [0807-custom-sort-string](https://github.com/DpkRn/LeetCode/tree/master/0807-custom-sort-string) |
 | [1207-delete-nodes-and-return-forest](https://github.com/DpkRn/LeetCode/tree/master/1207-delete-nodes-and-return-forest) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/DpkRn/LeetCode/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/DpkRn/LeetCode/tree/master/2306-create-binary-tree-from-descriptions) |
@@ -81,6 +82,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | ------- |
 | [0350-intersection-of-two-arrays-ii](https://github.com/DpkRn/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0726-number-of-atoms](https://github.com/DpkRn/LeetCode/tree/master/0726-number-of-atoms) |
+| [0807-custom-sort-string](https://github.com/DpkRn/LeetCode/tree/master/0807-custom-sort-string) |
 | [0948-sort-an-array](https://github.com/DpkRn/LeetCode/tree/master/0948-sort-an-array) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/DpkRn/LeetCode/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/DpkRn/LeetCode/tree/master/1741-sort-array-by-increasing-frequency) |
@@ -158,6 +160,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 |  |
 | ------- |
 | [0726-number-of-atoms](https://github.com/DpkRn/LeetCode/tree/master/0726-number-of-atoms) |
+| [0807-custom-sort-string](https://github.com/DpkRn/LeetCode/tree/master/0807-custom-sort-string) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/DpkRn/LeetCode/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1720-crawler-log-folder](https://github.com/DpkRn/LeetCode/tree/master/1720-crawler-log-folder) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/DpkRn/LeetCode/tree/master/1818-maximum-score-from-removing-substrings) |
