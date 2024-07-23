@@ -1,23 +1,14 @@
 class Solution {
 public:
- static bool com(pair<int,int> a,pair<int,int> b){
-    if(a.second!=b.second)
-    return a.second<b.second;
-    else return a.first>b.first;   
-}
+ 
     vector<int> frequencySort(vector<int>& nums) {
-        unordered_map<int,int> mp;
+        unordered_map<int,int> freq;
         int n=nums.size();
-        for(auto it:nums) mp[it]++;
-        vector<pair<int,int>> vec;
-        for(auto it:mp){
-            for(int i=0;i<it.second;i++)
-            vec.push_back({it.first,it.second});
-        }
-        sort(vec.begin(),vec.end(),com);
-        vector<int> ans;
-        for(auto it:vec) ans.push_back(it.first);
-        return ans;
+        for(auto it:nums) freq[it]++;
+        sort(nums.begin(),nums.end(),[&](int a, int b){
+            return freq[a]==freq[b]?a>b:freq[a]<freq[b];
+        });
+        return nums;
     }
 
 };
