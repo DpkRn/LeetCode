@@ -31,7 +31,7 @@ public:
     void update(int v,int lt,int rt,int idx,int val){
         if(lt==idx&&rt==idx){
             t[v]=val;
-           // nums[idx]=val;
+            nums[idx]=val;
             return ;
         }
         int mid=(lt+rt)>>1;
