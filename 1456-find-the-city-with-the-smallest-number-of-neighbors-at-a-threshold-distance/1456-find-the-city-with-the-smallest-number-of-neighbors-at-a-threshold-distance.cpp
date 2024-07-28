@@ -33,18 +33,11 @@ public:
            cout<<endl;
         }
           
-       int ans=-1;
-       int mini=n;
-        for(int i=0;i<n;i++){
-             int city=0;
-            for(int j=0;j<n;j++){
-                if(i!=j&&dp[i][j]<=distanceThreshold) city++;
-            }
-           if(city<=mini){
-               ans=i;
-               mini=city;
-           }
-        }
-        return ans;
+        sort(mp.begin(),mp.end(),[&](int a,int b){
+            if(cnt[a]!=cnt[b]) return cnt[a]<cnt[b];
+            else return a>b;
+        });
+         
+        return mp[0];
     }
 };
