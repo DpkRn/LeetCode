@@ -4,15 +4,12 @@ public:
         int n=rating.size();
         int res=0;
         for(int i=0;i<n;i++){
-            int smaller=0;
-            for(int j=0;j<i;j++){
-                if(rating[j]<rating[i]){
+            int smaller=0;int greater=0;
+            for(int j=0;j<n;j++){
+                if(j<i&&rating[j]<rating[i]){
                     smaller++;
                 }
-            }
-            int greater=0;
-            for(int j=i+1;j<n;j++){
-                if(rating[j]>rating[i]){
+                if(i<j&&rating[j]>rating[i]){
                     greater++;
                 }
             }
