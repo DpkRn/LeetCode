@@ -1,56 +1,43 @@
+#define P pair<int,int>
 class Solution {
 public:
     int secondMinimum(int n, vector<vector<int>>& edges, int time, int change) {
-         vector<vector<int>> adj(n);
+         vector<vector<int>> adj(n+1);
         for (auto& e : edges) {
-            int u = e[0]-1, v = e[1]-1;
+            int u = e[0], v = e[1];
             adj[u].push_back(v);
             adj[v].push_back(u);
         }
         
-        // bfs from goal
-        vector<int> d(n, 1e9);
-        d[n-1] = 0;
-        queue<int> q;
-        q.push(n-1);
-        while (!q.empty()) {
-            int cur = q.front(); q.pop();
-            for (auto nei : adj[cur]) {
-                if (d[nei] == 1e9) {
-                    d[nei] = d[cur] + 1;
-                    q.push(nei);
+        
+        vector<int> d1(n+1, INT_MAX),d2(n+1,INT_MAX);
+        d1[1]=0;
+        priority_queue<P,vector<P>,greater<P>> pq;
+        pq.push({0,1});
+        while(!pq.empty()){
+            auto [cTime,node]=pq.top();
+            cout<<cTime<<" "<<node<<endl;
+            pq.pop();
+            int div=cTime/change;
+            if(div%2==1)
+            cTime=(div+1)*change;
+            if(node==n&&d2[node]!=INT_MAX) return d2[node];
+            for(auto &v:adj[node]){
+                int newtime=cTime+time;
+                if(newtime<d1[v]){
+                    d2[v]=d1[v];
+                    d1[v]=cTime+time;
+                    pq.push({d1[v],v});
+                }else if(newtime>d1[v]&&newtime<d2[v]){
+                    d2[v]=cTime+time;
+                    pq.push({d2[v],v});
                 }
             }
         }
+       
         
-        // check the existence of a path with length = d[0]+1
-        int len = d[0] + 2;
-        q.push(0);
-        bool done = false;
-        while (!q.empty()) {
-            int cur = q.front(); q.pop();
-            for (auto nei : adj[cur]) {
-                if (d[nei] == d[cur]) {
-                    len--;
-                    done = true;
-                    break;
-                } else if (d[nei] == d[cur] - 1) {
-                    q.push(nei);
-                }
-            }
-            if (done) break;
-        }
+        return -1;
+
         
-        // calculate the time needed
-        // light : green in [0, c),  [2c, 3c), ... 
-        //          red  in [c, 2c), [3c, 4c), ...
-        int currTime = 0;
-        //cout << len << '\n';
-        for (int i = 0; i < len; i++) {
-			if ((currTime / change) % 2 == 1)  // have to wait until the signal turns into green
-                currTime = ((currTime / change) + 1) * change;    
-            currTime += time;
-        }
-        return currTime;
     }
 };
