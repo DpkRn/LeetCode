@@ -57,6 +57,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | [1293-three-consecutive-odds](https://github.com/DpkRn/LeetCode/tree/master/1293-three-consecutive-odds) |
 | [1333-sort-the-jumbled-numbers](https://github.com/DpkRn/LeetCode/tree/master/1333-sort-the-jumbled-numbers) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/DpkRn/LeetCode/tree/master/1496-lucky-numbers-in-a-matrix) |
+| [1511-count-number-of-teams](https://github.com/DpkRn/LeetCode/tree/master/1511-count-number-of-teams) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/DpkRn/LeetCode/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/DpkRn/LeetCode/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1720-crawler-log-folder](https://github.com/DpkRn/LeetCode/tree/master/1720-crawler-log-folder) |
@@ -232,6 +233,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | ------- |
 | [0307-range-sum-query-mutable](https://github.com/DpkRn/LeetCode/tree/master/0307-range-sum-query-mutable) |
 | [0493-reverse-pairs](https://github.com/DpkRn/LeetCode/tree/master/0493-reverse-pairs) |
+| [1511-count-number-of-teams](https://github.com/DpkRn/LeetCode/tree/master/1511-count-number-of-teams) |
 ## Segment Tree
 |  |
 | ------- |
@@ -245,6 +247,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 |  |
 | ------- |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/DpkRn/LeetCode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
+| [1511-count-number-of-teams](https://github.com/DpkRn/LeetCode/tree/master/1511-count-number-of-teams) |
 ## Shortest Path
 |  |
 | ------- |
