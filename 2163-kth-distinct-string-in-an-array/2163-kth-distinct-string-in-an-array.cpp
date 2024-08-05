@@ -1,24 +1,18 @@
 class Solution {
 public:
     string kthDistinct(vector<string>& arr, int k) {
-        unordered_map<string,int> freq;
         unordered_map<string,int> idx;
-
-        int i=0;
-        for(auto ch:arr) 
-        {
-            freq[ch]++;
-            if(idx.find(ch)==idx.end()){
-                idx[ch]=i++;
-            }
+        
+        for(auto ch:arr) {
+            if(idx[ch]==0) idx[ch]=1;
+            else idx[ch]=2;
         }
-        sort(arr.begin(),arr.end(),[&](string a,string b){
-            if(freq[a]!=freq[b])
-            return freq[a]<freq[b];
-            else return idx[a]<idx[b];
-        });
-        for(auto it:arr) cout<<it<<" ";
-        return freq[arr[k-1]]!=1?"":arr[k-1];
+        for(auto ch:arr){
+            if(idx[ch]==1)
+            k--;
+            if(k==0) return ch;
+        }
+        return "";
 
     }
 };
