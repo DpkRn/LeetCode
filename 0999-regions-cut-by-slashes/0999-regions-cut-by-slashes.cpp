@@ -26,12 +26,12 @@ public:
             }
         }
 
-        for(int i=0;i<m*3;i++){
-            for(int j=0;j<n*3;j++){
-                cout<<mat[i][j]<<" ";
-            }
-            cout<<endl;
-        }
+        // for(int i=0;i<m*3;i++){
+        //     for(int j=0;j<n*3;j++){
+        //         cout<<mat[i][j]<<" ";
+        //     }
+        //     cout<<endl;
+        // }
         int cnt=0;
         for(int i=0;i<m*3;i++){
             for(int j=0;j<n*3;j++){
