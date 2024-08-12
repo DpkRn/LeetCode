@@ -6,6 +6,26 @@ public:
         if(totalSum%2==1) return false;
         int k=totalSum/2;
         int n=nums.size();     
+        vector<int> dp(k+1,0);
+        dp[0]=1;
+        for(auto num:nums){
+            for(int j=k;j>=num;j--){
+                dp[j]=dp[j]||dp[j-num];
+            }
+        }
+        return dp[k];      
+    }
+};
+
+/*
+class Solution {
+public:
+    bool canPartition(vector<int>& nums) {
+        int totalSum=0;
+        for(auto &it:nums) totalSum+=it;
+        if(totalSum%2==1) return false;
+        int k=totalSum/2;
+        int n=nums.size();     
         vector<vector<int>> dp(n+1,vector<int>(k+1,0));
         dp[0][0]=1;
         for(int i=1;i<=n;i++){
@@ -17,3 +37,5 @@ public:
         return dp[n][k];       
     }
 };
+
+*/
