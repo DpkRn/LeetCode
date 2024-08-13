@@ -1,25 +1,25 @@
 class Solution {
 public:
-    void solve(vector<int> &candidates,int ind,int target,vector<int>&temp,vector<vector<int>> &ans){
-       if(target==0){
-           ans.push_back(temp);
-           return;
-       }
-        for(int i=ind;i<candidates.size();i++){
-            if(ind!=i&&candidates[i-1]==candidates[i]) 
-                continue;
-            if(candidates[i]<=target){
-                temp.push_back(candidates[i]);
-                solve(candidates,i+1,target-candidates[i],temp,ans);
-                temp.pop_back();
-            }
+    void dfs(int i,auto &candidates,int target,vector<int> &path, vector<vector<int>> &ans,int n){    
+        if(target==0){
+            ans.push_back(path);
+            return;
+        }
+        for(int j=i;j<n;j++){
+            if(i!=j&&candidates[j]==candidates[j-1]) continue;
+             if(target-candidates[i]>=0) {
+                path.push_back(candidates[j]);
+                dfs(j+1,candidates,target-candidates[j],path,ans,n);
+                path.pop_back();
+             }
         }
     }
     vector<vector<int>> combinationSum2(vector<int>& candidates, int target) {
-        sort(candidates.begin(),candidates.end());
-        vector<int>temp;
+        int n=candidates.size();
         vector<vector<int>> ans;
-        solve(candidates,0,target,temp,ans);
+        vector<int> path;
+        sort(candidates.begin(),candidates.end());
+        dfs(0,candidates,target,path,ans,n);
         return ans;
     }
 };
