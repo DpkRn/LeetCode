@@ -1,60 +1,37 @@
 class Solution {
 public:
-//     int getLessThanK(auto &nums,int k){
-//         int n=nums.size();
-        
-//         int cnt=0;
-//         for(int i=0;i<n;i++){
-//             int l=i+1; int r=n-1;
-//             while(l<=r){
-//                 int mid=(l+(r-l)/2);
-//                 if(abs(nums[mid]-nums[i])>k){
-//                     r=mid-1;
-//                 }else{
-//                     l=mid+1;
-//                 }
-//             }
-//             cnt=(cnt+(l-(i+1))%(int)(1e9+7));
-//         }
-//         return cnt;
-//     }
-    int getLessThanK(auto &nums,int k){
+    int pairsLessThanDist(auto &nums,int m){
         int n=nums.size();
-        
         int cnt=0;
         int j=0;
         for(int i=0;i<n;i++){
-            while(nums[i]-nums[j]>k) j++;
-            if(nums[i]-nums[j]<=k) cnt+=(i-j);
+            int dist=abs(nums[i]-nums[j]);
+            while(abs(nums[i]-nums[j]>m)) j++;
+            if(abs(nums[i]-nums[j])<=m)
+            cnt+=(i-j);
         }
-        cout<<cnt<<" ";
         return cnt;
     }
-    
-    
-    
     int smallestDistancePair(vector<int>& nums, int k) {
         int n=nums.size();
+        int minDist=1e9;
         sort(nums.begin(),nums.end());
-        int mini=1e9;
-        for(auto p=0;p<n-1;p++){
-            mini=min(mini,nums[p+1]-nums[p]);
+        int maxDist=nums[n-1]-nums[0];
+        for(int i=1;i<n;i++){
+            minDist=min(minDist,nums[i]-nums[i-1]);
         }
-       
-        
-        int l=mini; int r=abs(nums[0]-nums[n-1]);
-       
+        int l=minDist; int r=maxDist;
+        int result=0;
         while(l<=r){
             int mid=l+(r-l)/2;
-            int cnt=getLessThanK(nums,mid);
-            if(cnt>=k){
-                r=mid-1;
-            }else{ 
+            int pairsCount=pairsLessThanDist(nums,mid);
+            if(pairsCount<k){
                 l=mid+1;
+            }else{
+                r=mid-1;
+                result=mid;
             }
         }
-        return l;
-        
-        
+        return result;
     }
 };
