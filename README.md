@@ -82,6 +82,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 ## Hash Table
 |  |
 | ------- |
+| [0264-ugly-number-ii](https://github.com/DpkRn/LeetCode/tree/master/0264-ugly-number-ii) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/DpkRn/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0726-number-of-atoms](https://github.com/DpkRn/LeetCode/tree/master/0726-number-of-atoms) |
 | [0807-custom-sort-string](https://github.com/DpkRn/LeetCode/tree/master/0807-custom-sort-string) |
@@ -176,6 +177,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 ## Math
 |  |
 | ------- |
+| [0264-ugly-number-ii](https://github.com/DpkRn/LeetCode/tree/master/0264-ugly-number-ii) |
 | [0273-integer-to-english-words](https://github.com/DpkRn/LeetCode/tree/master/0273-integer-to-english-words) |
 | [1642-water-bottles](https://github.com/DpkRn/LeetCode/tree/master/1642-water-bottles) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/DpkRn/LeetCode/tree/master/1951-find-the-winner-of-the-circular-game) |
@@ -237,6 +239,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0264-ugly-number-ii](https://github.com/DpkRn/LeetCode/tree/master/0264-ugly-number-ii) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/DpkRn/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0948-sort-an-array](https://github.com/DpkRn/LeetCode/tree/master/0948-sort-an-array) |
 ## Merge Sort
@@ -286,6 +289,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 ## Dynamic Programming
 |  |
 | ------- |
+| [0264-ugly-number-ii](https://github.com/DpkRn/LeetCode/tree/master/0264-ugly-number-ii) |
 | [1196-filling-bookcase-shelves](https://github.com/DpkRn/LeetCode/tree/master/1196-filling-bookcase-shelves) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/DpkRn/LeetCode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1511-count-number-of-teams](https://github.com/DpkRn/LeetCode/tree/master/1511-count-number-of-teams) |
