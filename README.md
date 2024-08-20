@@ -58,6 +58,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | [0948-sort-an-array](https://github.com/DpkRn/LeetCode/tree/master/0948-sort-an-array) |
 | [1196-filling-bookcase-shelves](https://github.com/DpkRn/LeetCode/tree/master/1196-filling-bookcase-shelves) |
 | [1207-delete-nodes-and-return-forest](https://github.com/DpkRn/LeetCode/tree/master/1207-delete-nodes-and-return-forest) |
+| [1240-stone-game-ii](https://github.com/DpkRn/LeetCode/tree/master/1240-stone-game-ii) |
 | [1293-three-consecutive-odds](https://github.com/DpkRn/LeetCode/tree/master/1293-three-consecutive-odds) |
 | [1333-sort-the-jumbled-numbers](https://github.com/DpkRn/LeetCode/tree/master/1333-sort-the-jumbled-numbers) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/DpkRn/LeetCode/tree/master/1496-lucky-numbers-in-a-matrix) |
@@ -180,6 +181,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | [0264-ugly-number-ii](https://github.com/DpkRn/LeetCode/tree/master/0264-ugly-number-ii) |
 | [0273-integer-to-english-words](https://github.com/DpkRn/LeetCode/tree/master/0273-integer-to-english-words) |
 | [0650-2-keys-keyboard](https://github.com/DpkRn/LeetCode/tree/master/0650-2-keys-keyboard) |
+| [1240-stone-game-ii](https://github.com/DpkRn/LeetCode/tree/master/1240-stone-game-ii) |
 | [1642-water-bottles](https://github.com/DpkRn/LeetCode/tree/master/1642-water-bottles) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/DpkRn/LeetCode/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2645-pass-the-pillow](https://github.com/DpkRn/LeetCode/tree/master/2645-pass-the-pillow) |
@@ -272,6 +274,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 |  |
 | ------- |
 | [0303-range-sum-query-immutable](https://github.com/DpkRn/LeetCode/tree/master/0303-range-sum-query-immutable) |
+| [1240-stone-game-ii](https://github.com/DpkRn/LeetCode/tree/master/1240-stone-game-ii) |
 ## Binary Indexed Tree
 |  |
 | ------- |
@@ -293,6 +296,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | [0264-ugly-number-ii](https://github.com/DpkRn/LeetCode/tree/master/0264-ugly-number-ii) |
 | [0650-2-keys-keyboard](https://github.com/DpkRn/LeetCode/tree/master/0650-2-keys-keyboard) |
 | [1196-filling-bookcase-shelves](https://github.com/DpkRn/LeetCode/tree/master/1196-filling-bookcase-shelves) |
+| [1240-stone-game-ii](https://github.com/DpkRn/LeetCode/tree/master/1240-stone-game-ii) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/DpkRn/LeetCode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1511-count-number-of-teams](https://github.com/DpkRn/LeetCode/tree/master/1511-count-number-of-teams) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/DpkRn/LeetCode/tree/master/1756-minimum-deletions-to-make-string-balanced) |
@@ -331,4 +335,8 @@ Request: if you think any of the problem still can be optimise then please.. try
 |  |
 | ------- |
 | [1508-longest-happy-prefix](https://github.com/DpkRn/LeetCode/tree/master/1508-longest-happy-prefix) |
+## Game Theory
+|  |
+| ------- |
+| [1240-stone-game-ii](https://github.com/DpkRn/LeetCode/tree/master/1240-stone-game-ii) |
 <!---LeetCode Topics End-->
