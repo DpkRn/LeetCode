@@ -341,4 +341,8 @@ Request: if you think any of the problem still can be optimise then please.. try
 |  |
 | ------- |
 | [1240-stone-game-ii](https://github.com/DpkRn/LeetCode/tree/master/1240-stone-game-ii) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0476-number-complement](https://github.com/DpkRn/LeetCode/tree/master/0476-number-complement) |
 <!---LeetCode Topics End-->
