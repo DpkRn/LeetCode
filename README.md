@@ -180,6 +180,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | ------- |
 | [0264-ugly-number-ii](https://github.com/DpkRn/LeetCode/tree/master/0264-ugly-number-ii) |
 | [0273-integer-to-english-words](https://github.com/DpkRn/LeetCode/tree/master/0273-integer-to-english-words) |
+| [0564-find-the-closest-palindrome](https://github.com/DpkRn/LeetCode/tree/master/0564-find-the-closest-palindrome) |
 | [0592-fraction-addition-and-subtraction](https://github.com/DpkRn/LeetCode/tree/master/0592-fraction-addition-and-subtraction) |
 | [0650-2-keys-keyboard](https://github.com/DpkRn/LeetCode/tree/master/0650-2-keys-keyboard) |
 | [1240-stone-game-ii](https://github.com/DpkRn/LeetCode/tree/master/1240-stone-game-ii) |
@@ -209,6 +210,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | ------- |
 | [0014-longest-common-prefix](https://github.com/DpkRn/LeetCode/tree/master/0014-longest-common-prefix) |
 | [0273-integer-to-english-words](https://github.com/DpkRn/LeetCode/tree/master/0273-integer-to-english-words) |
+| [0564-find-the-closest-palindrome](https://github.com/DpkRn/LeetCode/tree/master/0564-find-the-closest-palindrome) |
 | [0592-fraction-addition-and-subtraction](https://github.com/DpkRn/LeetCode/tree/master/0592-fraction-addition-and-subtraction) |
 | [0664-strange-printer](https://github.com/DpkRn/LeetCode/tree/master/0664-strange-printer) |
 | [0726-number-of-atoms](https://github.com/DpkRn/LeetCode/tree/master/0726-number-of-atoms) |
