@@ -81,6 +81,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/DpkRn/LeetCode/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1720-crawler-log-folder](https://github.com/DpkRn/LeetCode/tree/master/1720-crawler-log-folder) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/DpkRn/LeetCode/tree/master/1741-sort-array-by-increasing-frequency) |
+| [1786-count-the-number-of-consistent-strings](https://github.com/DpkRn/LeetCode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1803-average-waiting-time](https://github.com/DpkRn/LeetCode/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/DpkRn/LeetCode/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/DpkRn/LeetCode/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
@@ -107,6 +108,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | [1207-delete-nodes-and-return-forest](https://github.com/DpkRn/LeetCode/tree/master/1207-delete-nodes-and-return-forest) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/DpkRn/LeetCode/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/DpkRn/LeetCode/tree/master/1741-sort-array-by-increasing-frequency) |
+| [1786-count-the-number-of-consistent-strings](https://github.com/DpkRn/LeetCode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/DpkRn/LeetCode/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/DpkRn/LeetCode/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2502-sort-the-people](https://github.com/DpkRn/LeetCode/tree/master/2502-sort-the-people) |
@@ -250,6 +252,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | [1508-longest-happy-prefix](https://github.com/DpkRn/LeetCode/tree/master/1508-longest-happy-prefix) |
 | [1720-crawler-log-folder](https://github.com/DpkRn/LeetCode/tree/master/1720-crawler-log-folder) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/DpkRn/LeetCode/tree/master/1756-minimum-deletions-to-make-string-balanced) |
+| [1786-count-the-number-of-consistent-strings](https://github.com/DpkRn/LeetCode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/DpkRn/LeetCode/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/DpkRn/LeetCode/tree/master/2076-sum-of-digits-of-string-after-convert) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/DpkRn/LeetCode/tree/master/2163-kth-distinct-string-in-an-array) |
@@ -304,6 +307,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 |  |
 | ------- |
 | [0948-sort-an-array](https://github.com/DpkRn/LeetCode/tree/master/0948-sort-an-array) |
+| [1786-count-the-number-of-consistent-strings](https://github.com/DpkRn/LeetCode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/DpkRn/LeetCode/tree/master/2163-kth-distinct-string-in-an-array) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/DpkRn/LeetCode/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Design
@@ -389,6 +393,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 |  |
 | ------- |
 | [0476-number-complement](https://github.com/DpkRn/LeetCode/tree/master/0476-number-complement) |
+| [1786-count-the-number-of-consistent-strings](https://github.com/DpkRn/LeetCode/tree/master/1786-count-the-number-of-consistent-strings) |
 ## Number Theory
 |  |
 | ------- |
