@@ -397,6 +397,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | [0476-number-complement](https://github.com/DpkRn/LeetCode/tree/master/0476-number-complement) |
 | [1435-xor-queries-of-a-subarray](https://github.com/DpkRn/LeetCode/tree/master/1435-xor-queries-of-a-subarray) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/DpkRn/LeetCode/tree/master/1786-count-the-number-of-consistent-strings) |
+| [2323-minimum-bit-flips-to-convert-number](https://github.com/DpkRn/LeetCode/tree/master/2323-minimum-bit-flips-to-convert-number) |
 ## Number Theory
 |  |
 | ------- |
