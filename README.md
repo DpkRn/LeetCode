@@ -59,6 +59,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 |  |
 | ------- |
 | [0051-n-queens](https://github.com/DpkRn/LeetCode/tree/master/0051-n-queens) |
+| [0179-largest-number](https://github.com/DpkRn/LeetCode/tree/master/0179-largest-number) |
 | [0303-range-sum-query-immutable](https://github.com/DpkRn/LeetCode/tree/master/0303-range-sum-query-immutable) |
 | [0307-range-sum-query-mutable](https://github.com/DpkRn/LeetCode/tree/master/0307-range-sum-query-mutable) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/DpkRn/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
@@ -135,6 +136,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 ## Sorting
 |  |
 | ------- |
+| [0179-largest-number](https://github.com/DpkRn/LeetCode/tree/master/0179-largest-number) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/DpkRn/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0539-minimum-time-difference](https://github.com/DpkRn/LeetCode/tree/master/0539-minimum-time-difference) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/DpkRn/LeetCode/tree/master/0719-find-k-th-smallest-pair-distance) |
@@ -152,6 +154,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 ## Greedy
 |  |
 | ------- |
+| [0179-largest-number](https://github.com/DpkRn/LeetCode/tree/master/0179-largest-number) |
 | [0624-maximum-distance-in-arrays](https://github.com/DpkRn/LeetCode/tree/master/0624-maximum-distance-in-arrays) |
 | [0890-lemonade-change](https://github.com/DpkRn/LeetCode/tree/master/0890-lemonade-change) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/DpkRn/LeetCode/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
@@ -248,6 +251,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/DpkRn/LeetCode/tree/master/0014-longest-common-prefix) |
+| [0179-largest-number](https://github.com/DpkRn/LeetCode/tree/master/0179-largest-number) |
 | [0273-integer-to-english-words](https://github.com/DpkRn/LeetCode/tree/master/0273-integer-to-english-words) |
 | [0539-minimum-time-difference](https://github.com/DpkRn/LeetCode/tree/master/0539-minimum-time-difference) |
 | [0564-find-the-closest-palindrome](https://github.com/DpkRn/LeetCode/tree/master/0564-find-the-closest-palindrome) |
