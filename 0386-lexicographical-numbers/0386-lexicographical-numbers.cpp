@@ -1,17 +1,15 @@
 class Solution {
-    bool dfs(int curr, int n, auto& res){
-        if(curr>n) return false;
-        res.push_back(curr);
-        for(int i=0;i<=9;i++){
-            if(!dfs(curr*10+i,n,res)) break;
-        }
-        return true;
-    }
 public:
     vector<int> lexicalOrder(int n) {
         vector<int> res;
-        for(int i=1;i<=9;i++){
-            if(!dfs(i,n,res)) break;
+        int curr = 1;
+        for (int i = 0; i < n; ++i) {
+            res.push_back(curr);
+            if (curr * 10 <= n) curr *= 10;
+            else {
+                while (curr % 10 == 9 || curr >= n) curr /= 10;
+                curr += 1;
+            }
         }
         return res;
     }
