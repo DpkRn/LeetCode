@@ -15,6 +15,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/DpkRn/LeetCode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/DpkRn/LeetCode/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [0386-lexicographical-numbers](https://github.com/DpkRn/LeetCode/tree/master/0386-lexicographical-numbers) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/DpkRn/LeetCode/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/DpkRn/LeetCode/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1207-delete-nodes-and-return-forest](https://github.com/DpkRn/LeetCode/tree/master/1207-delete-nodes-and-return-forest) |
@@ -378,6 +379,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/DpkRn/LeetCode/tree/master/0014-longest-common-prefix) |
+| [0386-lexicographical-numbers](https://github.com/DpkRn/LeetCode/tree/master/0386-lexicographical-numbers) |
 ## Sliding Window
 |  |
 | ------- |
