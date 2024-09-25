@@ -96,6 +96,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/DpkRn/LeetCode/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/DpkRn/LeetCode/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2472-build-a-matrix-with-conditions](https://github.com/DpkRn/LeetCode/tree/master/2472-build-a-matrix-with-conditions) |
+| [2494-sum-of-prefix-scores-of-strings](https://github.com/DpkRn/LeetCode/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2502-sort-the-people](https://github.com/DpkRn/LeetCode/tree/master/2502-sort-the-people) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/DpkRn/LeetCode/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [2727-number-of-senior-citizens](https://github.com/DpkRn/LeetCode/tree/master/2727-number-of-senior-citizens) |
@@ -273,6 +274,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/DpkRn/LeetCode/tree/master/2076-sum-of-digits-of-string-after-convert) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/DpkRn/LeetCode/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/DpkRn/LeetCode/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
+| [2494-sum-of-prefix-scores-of-strings](https://github.com/DpkRn/LeetCode/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2502-sort-the-people](https://github.com/DpkRn/LeetCode/tree/master/2502-sort-the-people) |
 | [2727-number-of-senior-citizens](https://github.com/DpkRn/LeetCode/tree/master/2727-number-of-senior-citizens) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/DpkRn/LeetCode/tree/master/3235-minimum-cost-to-convert-string-i) |
@@ -325,6 +327,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | [0948-sort-an-array](https://github.com/DpkRn/LeetCode/tree/master/0948-sort-an-array) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/DpkRn/LeetCode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/DpkRn/LeetCode/tree/master/2163-kth-distinct-string-in-an-array) |
+| [2494-sum-of-prefix-scores-of-strings](https://github.com/DpkRn/LeetCode/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/DpkRn/LeetCode/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Design
 |  |
@@ -380,6 +383,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | ------- |
 | [0014-longest-common-prefix](https://github.com/DpkRn/LeetCode/tree/master/0014-longest-common-prefix) |
 | [0386-lexicographical-numbers](https://github.com/DpkRn/LeetCode/tree/master/0386-lexicographical-numbers) |
+| [2494-sum-of-prefix-scores-of-strings](https://github.com/DpkRn/LeetCode/tree/master/2494-sum-of-prefix-scores-of-strings) |
 ## Sliding Window
 |  |
 | ------- |
