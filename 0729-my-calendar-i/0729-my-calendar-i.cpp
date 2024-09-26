@@ -1,22 +1,23 @@
 class MyCalendar {
-    vector<vector<int>> cal;
-public:
-    MyCalendar() {  }
+private:
+    set<pair<int, int>> calendar;
 
+public:
     bool book(int start, int end) {
-        for (auto it : cal) {
-            if (it[0] <= start && start < it[1] ||
-                it[0] < end && end <= it[1] || start<=it[0]&&it[1]<=end) {
+        const pair<int, int> event{start, end};
+        const auto nextEvent = calendar.lower_bound(event);
+        if (nextEvent != calendar.end() && nextEvent->first < end) {
+            return false;
+        }
+
+        if (nextEvent != calendar.begin()) {
+            const auto prevEvent = prev(nextEvent);
+            if (prevEvent->second > start) {
                 return false;
             }
         }
-        cal.push_back({start, end});
+
+        calendar.insert(event);
         return true;
     }
 };
-
-/**
- * Your MyCalendar object will be instantiated and called as such:
- * MyCalendar* obj = new MyCalendar();
- * bool param_1 = obj->book(start,end);
- */
