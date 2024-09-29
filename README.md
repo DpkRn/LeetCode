@@ -112,6 +112,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | [0138-copy-list-with-random-pointer](https://github.com/DpkRn/LeetCode/tree/master/0138-copy-list-with-random-pointer) |
 | [0264-ugly-number-ii](https://github.com/DpkRn/LeetCode/tree/master/0264-ugly-number-ii) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/DpkRn/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0432-all-oone-data-structure](https://github.com/DpkRn/LeetCode/tree/master/0432-all-oone-data-structure) |
 | [0726-number-of-atoms](https://github.com/DpkRn/LeetCode/tree/master/0726-number-of-atoms) |
 | [0807-custom-sort-string](https://github.com/DpkRn/LeetCode/tree/master/0807-custom-sort-string) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/DpkRn/LeetCode/tree/master/0984-most-stones-removed-with-same-row-or-column) |
@@ -174,6 +175,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | ------- |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/DpkRn/LeetCode/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0138-copy-list-with-random-pointer](https://github.com/DpkRn/LeetCode/tree/master/0138-copy-list-with-random-pointer) |
+| [0432-all-oone-data-structure](https://github.com/DpkRn/LeetCode/tree/master/0432-all-oone-data-structure) |
 | [0725-split-linked-list-in-parts](https://github.com/DpkRn/LeetCode/tree/master/0725-split-linked-list-in-parts) |
 | [0859-design-circular-deque](https://github.com/DpkRn/LeetCode/tree/master/0859-design-circular-deque) |
 | [1484-linked-list-in-binary-tree](https://github.com/DpkRn/LeetCode/tree/master/1484-linked-list-in-binary-tree) |
@@ -341,6 +343,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | ------- |
 | [0303-range-sum-query-immutable](https://github.com/DpkRn/LeetCode/tree/master/0303-range-sum-query-immutable) |
 | [0307-range-sum-query-mutable](https://github.com/DpkRn/LeetCode/tree/master/0307-range-sum-query-mutable) |
+| [0432-all-oone-data-structure](https://github.com/DpkRn/LeetCode/tree/master/0432-all-oone-data-structure) |
 | [0729-my-calendar-i](https://github.com/DpkRn/LeetCode/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/DpkRn/LeetCode/tree/master/0731-my-calendar-ii) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/DpkRn/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
@@ -447,4 +450,8 @@ Request: if you think any of the problem still can be optimise then please.. try
 |  |
 | ------- |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/DpkRn/LeetCode/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0432-all-oone-data-structure](https://github.com/DpkRn/LeetCode/tree/master/0432-all-oone-data-structure) |
 <!---LeetCode Topics End-->
