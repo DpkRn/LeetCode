@@ -11,8 +11,6 @@ public:
         for(int i=1;i<n;i++){
             if(mp.find(arr1[i])==mp.end()){
                 mp[arr1[i]]=mp[arr1[i-1]]+1;
-            }else{
-                mp[arr1[i]]=mp[arr1[i-1]];
             }
         }
         vector<int> ans;
