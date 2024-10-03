@@ -10,11 +10,8 @@ public:
         unordered_map<int,int> mp;
         mp[0]=-1;
         for(long long i=0;i<n;i++){
-            s+=nums[i]%p;
-            s%=p;
-           
-            long long x=s-k;
-            x=(x+p)%p;
+            s=(s+nums[i]%p)%p;
+            int x=(s-k+p)%p;
             if(mp.find(x)!=mp.end()){
                 ans=min(ans,i-mp[x]);
             }
