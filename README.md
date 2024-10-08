@@ -84,6 +84,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | [1293-three-consecutive-odds](https://github.com/DpkRn/LeetCode/tree/master/1293-three-consecutive-odds) |
 | [1325-path-with-maximum-probability](https://github.com/DpkRn/LeetCode/tree/master/1325-path-with-maximum-probability) |
 | [1333-sort-the-jumbled-numbers](https://github.com/DpkRn/LeetCode/tree/master/1333-sort-the-jumbled-numbers) |
+| [1370-count-number-of-nice-subarrays](https://github.com/DpkRn/LeetCode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1435-xor-queries-of-a-subarray](https://github.com/DpkRn/LeetCode/tree/master/1435-xor-queries-of-a-subarray) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/DpkRn/LeetCode/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1511-count-number-of-teams](https://github.com/DpkRn/LeetCode/tree/master/1511-count-number-of-teams) |
@@ -132,6 +133,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/DpkRn/LeetCode/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1207-delete-nodes-and-return-forest](https://github.com/DpkRn/LeetCode/tree/master/1207-delete-nodes-and-return-forest) |
 | [1256-rank-transform-of-an-array](https://github.com/DpkRn/LeetCode/tree/master/1256-rank-transform-of-an-array) |
+| [1370-count-number-of-nice-subarrays](https://github.com/DpkRn/LeetCode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/DpkRn/LeetCode/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/DpkRn/LeetCode/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/DpkRn/LeetCode/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
@@ -262,6 +264,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | [0592-fraction-addition-and-subtraction](https://github.com/DpkRn/LeetCode/tree/master/0592-fraction-addition-and-subtraction) |
 | [0650-2-keys-keyboard](https://github.com/DpkRn/LeetCode/tree/master/0650-2-keys-keyboard) |
 | [1240-stone-game-ii](https://github.com/DpkRn/LeetCode/tree/master/1240-stone-game-ii) |
+| [1370-count-number-of-nice-subarrays](https://github.com/DpkRn/LeetCode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1642-water-bottles](https://github.com/DpkRn/LeetCode/tree/master/1642-water-bottles) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/DpkRn/LeetCode/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2301-count-array-pairs-divisible-by-k](https://github.com/DpkRn/LeetCode/tree/master/2301-count-array-pairs-divisible-by-k) |
@@ -392,6 +395,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | [0966-binary-subarrays-with-sum](https://github.com/DpkRn/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/DpkRn/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
 | [1240-stone-game-ii](https://github.com/DpkRn/LeetCode/tree/master/1240-stone-game-ii) |
+| [1370-count-number-of-nice-subarrays](https://github.com/DpkRn/LeetCode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1435-xor-queries-of-a-subarray](https://github.com/DpkRn/LeetCode/tree/master/1435-xor-queries-of-a-subarray) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/DpkRn/LeetCode/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1694-make-sum-divisible-by-p](https://github.com/DpkRn/LeetCode/tree/master/1694-make-sum-divisible-by-p) |
@@ -449,6 +453,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | [0567-permutation-in-string](https://github.com/DpkRn/LeetCode/tree/master/0567-permutation-in-string) |
 | [0966-binary-subarrays-with-sum](https://github.com/DpkRn/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/DpkRn/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
+| [1370-count-number-of-nice-subarrays](https://github.com/DpkRn/LeetCode/tree/master/1370-count-number-of-nice-subarrays) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/DpkRn/LeetCode/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 ## Binary Search Tree
 |  |
