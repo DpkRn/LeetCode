@@ -117,6 +117,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 ## Hash Table
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/DpkRn/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0138-copy-list-with-random-pointer](https://github.com/DpkRn/LeetCode/tree/master/0138-copy-list-with-random-pointer) |
 | [0264-ugly-number-ii](https://github.com/DpkRn/LeetCode/tree/master/0264-ugly-number-ii) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/DpkRn/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
@@ -287,6 +288,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 ## String
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/DpkRn/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0014-longest-common-prefix](https://github.com/DpkRn/LeetCode/tree/master/0014-longest-common-prefix) |
 | [0179-largest-number](https://github.com/DpkRn/LeetCode/tree/master/0179-largest-number) |
 | [0214-shortest-palindrome](https://github.com/DpkRn/LeetCode/tree/master/0214-shortest-palindrome) |
@@ -434,6 +436,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 ## Sliding Window
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/DpkRn/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0567-permutation-in-string](https://github.com/DpkRn/LeetCode/tree/master/0567-permutation-in-string) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/DpkRn/LeetCode/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 ## Binary Search Tree
