@@ -61,6 +61,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | ------- |
 | [0001-two-sum](https://github.com/DpkRn/LeetCode/tree/master/0001-two-sum) |
 | [0051-n-queens](https://github.com/DpkRn/LeetCode/tree/master/0051-n-queens) |
+| [0075-sort-colors](https://github.com/DpkRn/LeetCode/tree/master/0075-sort-colors) |
 | [0179-largest-number](https://github.com/DpkRn/LeetCode/tree/master/0179-largest-number) |
 | [0268-missing-number](https://github.com/DpkRn/LeetCode/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/DpkRn/LeetCode/tree/master/0283-move-zeroes) |
@@ -160,6 +161,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 ## Two Pointers
 |  |
 | ------- |
+| [0075-sort-colors](https://github.com/DpkRn/LeetCode/tree/master/0075-sort-colors) |
 | [0283-move-zeroes](https://github.com/DpkRn/LeetCode/tree/master/0283-move-zeroes) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/DpkRn/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0567-permutation-in-string](https://github.com/DpkRn/LeetCode/tree/master/0567-permutation-in-string) |
@@ -184,6 +186,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 ## Sorting
 |  |
 | ------- |
+| [0075-sort-colors](https://github.com/DpkRn/LeetCode/tree/master/0075-sort-colors) |
 | [0179-largest-number](https://github.com/DpkRn/LeetCode/tree/master/0179-largest-number) |
 | [0268-missing-number](https://github.com/DpkRn/LeetCode/tree/master/0268-missing-number) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/DpkRn/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
