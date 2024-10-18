@@ -1,12 +1,10 @@
 class Solution {
 public:
     int missingNumber(vector<int>& nums) {
-        int zor=0;
+        unordered_set<int> st;
         int n=nums.size();
-        for(int i=0;i<n;i++){
-            zor=zor^nums[i];
-            zor=zor^i;
-        }
-        return zor^(n);
+        for(auto it:nums) st.insert(it);
+        for(int i=0;i<=n;i++) if(!st.contains(i)) return i;
+        return 0;
     }
 };
