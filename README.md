@@ -59,6 +59,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/DpkRn/LeetCode/tree/master/0001-two-sum) |
 | [0051-n-queens](https://github.com/DpkRn/LeetCode/tree/master/0051-n-queens) |
 | [0179-largest-number](https://github.com/DpkRn/LeetCode/tree/master/0179-largest-number) |
 | [0268-missing-number](https://github.com/DpkRn/LeetCode/tree/master/0268-missing-number) |
@@ -127,6 +128,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/DpkRn/LeetCode/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/DpkRn/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0138-copy-list-with-random-pointer](https://github.com/DpkRn/LeetCode/tree/master/0138-copy-list-with-random-pointer) |
 | [0264-ugly-number-ii](https://github.com/DpkRn/LeetCode/tree/master/0264-ugly-number-ii) |
