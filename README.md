@@ -61,6 +61,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | ------- |
 | [0001-two-sum](https://github.com/DpkRn/LeetCode/tree/master/0001-two-sum) |
 | [0051-n-queens](https://github.com/DpkRn/LeetCode/tree/master/0051-n-queens) |
+| [0053-maximum-subarray](https://github.com/DpkRn/LeetCode/tree/master/0053-maximum-subarray) |
 | [0075-sort-colors](https://github.com/DpkRn/LeetCode/tree/master/0075-sort-colors) |
 | [0179-largest-number](https://github.com/DpkRn/LeetCode/tree/master/0179-largest-number) |
 | [0268-missing-number](https://github.com/DpkRn/LeetCode/tree/master/0268-missing-number) |
@@ -374,6 +375,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 ## Divide and Conquer
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/DpkRn/LeetCode/tree/master/0053-maximum-subarray) |
 | [0493-reverse-pairs](https://github.com/DpkRn/LeetCode/tree/master/0493-reverse-pairs) |
 | [0948-sort-an-array](https://github.com/DpkRn/LeetCode/tree/master/0948-sort-an-array) |
 ## Heap (Priority Queue)
@@ -454,6 +456,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 ## Dynamic Programming
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/DpkRn/LeetCode/tree/master/0053-maximum-subarray) |
 | [0264-ugly-number-ii](https://github.com/DpkRn/LeetCode/tree/master/0264-ugly-number-ii) |
 | [0650-2-keys-keyboard](https://github.com/DpkRn/LeetCode/tree/master/0650-2-keys-keyboard) |
 | [0664-strange-printer](https://github.com/DpkRn/LeetCode/tree/master/0664-strange-printer) |
