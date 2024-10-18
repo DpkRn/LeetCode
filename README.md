@@ -68,6 +68,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | [0350-intersection-of-two-arrays-ii](https://github.com/DpkRn/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/DpkRn/LeetCode/tree/master/0453-minimum-moves-to-equal-array-elements) |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/DpkRn/LeetCode/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
+| [0485-max-consecutive-ones](https://github.com/DpkRn/LeetCode/tree/master/0485-max-consecutive-ones) |
 | [0493-reverse-pairs](https://github.com/DpkRn/LeetCode/tree/master/0493-reverse-pairs) |
 | [0539-minimum-time-difference](https://github.com/DpkRn/LeetCode/tree/master/0539-minimum-time-difference) |
 | [0624-maximum-distance-in-arrays](https://github.com/DpkRn/LeetCode/tree/master/0624-maximum-distance-in-arrays) |
