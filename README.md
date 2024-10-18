@@ -99,6 +99,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | [1741-sort-array-by-increasing-frequency](https://github.com/DpkRn/LeetCode/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/DpkRn/LeetCode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1803-average-waiting-time](https://github.com/DpkRn/LeetCode/tree/master/1803-average-waiting-time) |
+| [1878-check-if-array-is-sorted-and-rotated](https://github.com/DpkRn/LeetCode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1923-sentence-similarity-iii](https://github.com/DpkRn/LeetCode/tree/master/1923-sentence-similarity-iii) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/DpkRn/LeetCode/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/DpkRn/LeetCode/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
