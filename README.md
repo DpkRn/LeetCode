@@ -247,6 +247,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/DpkRn/LeetCode/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0726-number-of-atoms](https://github.com/DpkRn/LeetCode/tree/master/0726-number-of-atoms) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/DpkRn/LeetCode/tree/master/0776-n-ary-tree-postorder-traversal) |
+| [0886-score-of-parentheses](https://github.com/DpkRn/LeetCode/tree/master/0886-score-of-parentheses) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/DpkRn/LeetCode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1002-maximum-width-ramp](https://github.com/DpkRn/LeetCode/tree/master/1002-maximum-width-ramp) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/DpkRn/LeetCode/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
@@ -337,6 +338,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | [0664-strange-printer](https://github.com/DpkRn/LeetCode/tree/master/0664-strange-printer) |
 | [0726-number-of-atoms](https://github.com/DpkRn/LeetCode/tree/master/0726-number-of-atoms) |
 | [0807-custom-sort-string](https://github.com/DpkRn/LeetCode/tree/master/0807-custom-sort-string) |
+| [0886-score-of-parentheses](https://github.com/DpkRn/LeetCode/tree/master/0886-score-of-parentheses) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/DpkRn/LeetCode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/DpkRn/LeetCode/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/DpkRn/LeetCode/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
