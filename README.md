@@ -63,6 +63,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | [0051-n-queens](https://github.com/DpkRn/LeetCode/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/DpkRn/LeetCode/tree/master/0053-maximum-subarray) |
 | [0075-sort-colors](https://github.com/DpkRn/LeetCode/tree/master/0075-sort-colors) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/DpkRn/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0179-largest-number](https://github.com/DpkRn/LeetCode/tree/master/0179-largest-number) |
 | [0268-missing-number](https://github.com/DpkRn/LeetCode/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/DpkRn/LeetCode/tree/master/0283-move-zeroes) |
@@ -459,6 +460,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/DpkRn/LeetCode/tree/master/0053-maximum-subarray) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/DpkRn/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0264-ugly-number-ii](https://github.com/DpkRn/LeetCode/tree/master/0264-ugly-number-ii) |
 | [0650-2-keys-keyboard](https://github.com/DpkRn/LeetCode/tree/master/0650-2-keys-keyboard) |
 | [0664-strange-printer](https://github.com/DpkRn/LeetCode/tree/master/0664-strange-printer) |
