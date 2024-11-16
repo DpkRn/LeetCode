@@ -131,6 +131,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | [2846-robot-collisions](https://github.com/DpkRn/LeetCode/tree/master/2846-robot-collisions) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/DpkRn/LeetCode/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/DpkRn/LeetCode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
+| [3522-find-the-power-of-k-size-subarrays-i](https://github.com/DpkRn/LeetCode/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 ## Hash Table
 |  |
 | ------- |
@@ -499,6 +500,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | [1046-max-consecutive-ones-iii](https://github.com/DpkRn/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
 | [1370-count-number-of-nice-subarrays](https://github.com/DpkRn/LeetCode/tree/master/1370-count-number-of-nice-subarrays) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/DpkRn/LeetCode/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
+| [3522-find-the-power-of-k-size-subarrays-i](https://github.com/DpkRn/LeetCode/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 ## Binary Search Tree
 |  |
 | ------- |
