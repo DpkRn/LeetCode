@@ -77,6 +77,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | [0485-max-consecutive-ones](https://github.com/DpkRn/LeetCode/tree/master/0485-max-consecutive-ones) |
 | [0493-reverse-pairs](https://github.com/DpkRn/LeetCode/tree/master/0493-reverse-pairs) |
 | [0539-minimum-time-difference](https://github.com/DpkRn/LeetCode/tree/master/0539-minimum-time-difference) |
+| [0605-can-place-flowers](https://github.com/DpkRn/LeetCode/tree/master/0605-can-place-flowers) |
 | [0624-maximum-distance-in-arrays](https://github.com/DpkRn/LeetCode/tree/master/0624-maximum-distance-in-arrays) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/DpkRn/LeetCode/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0729-my-calendar-i](https://github.com/DpkRn/LeetCode/tree/master/0729-my-calendar-i) |
@@ -224,6 +225,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 |  |
 | ------- |
 | [0179-largest-number](https://github.com/DpkRn/LeetCode/tree/master/0179-largest-number) |
+| [0605-can-place-flowers](https://github.com/DpkRn/LeetCode/tree/master/0605-can-place-flowers) |
 | [0624-maximum-distance-in-arrays](https://github.com/DpkRn/LeetCode/tree/master/0624-maximum-distance-in-arrays) |
 | [0890-lemonade-change](https://github.com/DpkRn/LeetCode/tree/master/0890-lemonade-change) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/DpkRn/LeetCode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
