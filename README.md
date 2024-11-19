@@ -141,6 +141,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | [0003-longest-substring-without-repeating-characters](https://github.com/DpkRn/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0128-longest-consecutive-sequence](https://github.com/DpkRn/LeetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0138-copy-list-with-random-pointer](https://github.com/DpkRn/LeetCode/tree/master/0138-copy-list-with-random-pointer) |
+| [0202-happy-number](https://github.com/DpkRn/LeetCode/tree/master/0202-happy-number) |
 | [0264-ugly-number-ii](https://github.com/DpkRn/LeetCode/tree/master/0264-ugly-number-ii) |
 | [0268-missing-number](https://github.com/DpkRn/LeetCode/tree/master/0268-missing-number) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/DpkRn/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
@@ -172,6 +173,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/DpkRn/LeetCode/tree/master/0075-sort-colors) |
+| [0202-happy-number](https://github.com/DpkRn/LeetCode/tree/master/0202-happy-number) |
 | [0283-move-zeroes](https://github.com/DpkRn/LeetCode/tree/master/0283-move-zeroes) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/DpkRn/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0567-permutation-in-string](https://github.com/DpkRn/LeetCode/tree/master/0567-permutation-in-string) |
@@ -293,6 +295,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 ## Math
 |  |
 | ------- |
+| [0202-happy-number](https://github.com/DpkRn/LeetCode/tree/master/0202-happy-number) |
 | [0264-ugly-number-ii](https://github.com/DpkRn/LeetCode/tree/master/0264-ugly-number-ii) |
 | [0268-missing-number](https://github.com/DpkRn/LeetCode/tree/master/0268-missing-number) |
 | [0273-integer-to-english-words](https://github.com/DpkRn/LeetCode/tree/master/0273-integer-to-english-words) |
