@@ -6,13 +6,15 @@ public:
        
         for(int i=0;i<n;i++){
              int val=0;
-            if(s[i]=='('){
+            if(s[i]=='('){ //push 0 so that at the time of adding internal value we can check opening bracket limit
                 st.push(0);
             }else{
+                //calculate all the internal calculation
                 while(st.top()!=0){
                     val+=st.top();
                     st.pop();
                 }
+                //add and replace the bracket value
                 val=max(2*val,1);
                 st.pop();
                 st.push(val);
