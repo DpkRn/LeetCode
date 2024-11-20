@@ -88,6 +88,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | [0948-sort-an-array](https://github.com/DpkRn/LeetCode/tree/master/0948-sort-an-array) |
 | [0966-binary-subarrays-with-sum](https://github.com/DpkRn/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
 | [1002-maximum-width-ramp](https://github.com/DpkRn/LeetCode/tree/master/1002-maximum-width-ramp) |
+| [1044-find-common-characters](https://github.com/DpkRn/LeetCode/tree/master/1044-find-common-characters) |
 | [1046-max-consecutive-ones-iii](https://github.com/DpkRn/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
 | [1196-filling-bookcase-shelves](https://github.com/DpkRn/LeetCode/tree/master/1196-filling-bookcase-shelves) |
 | [1207-delete-nodes-and-return-forest](https://github.com/DpkRn/LeetCode/tree/master/1207-delete-nodes-and-return-forest) |
@@ -156,6 +157,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | [0807-custom-sort-string](https://github.com/DpkRn/LeetCode/tree/master/0807-custom-sort-string) |
 | [0966-binary-subarrays-with-sum](https://github.com/DpkRn/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/DpkRn/LeetCode/tree/master/0984-most-stones-removed-with-same-row-or-column) |
+| [1044-find-common-characters](https://github.com/DpkRn/LeetCode/tree/master/1044-find-common-characters) |
 | [1207-delete-nodes-and-return-forest](https://github.com/DpkRn/LeetCode/tree/master/1207-delete-nodes-and-return-forest) |
 | [1256-rank-transform-of-an-array](https://github.com/DpkRn/LeetCode/tree/master/1256-rank-transform-of-an-array) |
 | [1370-count-number-of-nice-subarrays](https://github.com/DpkRn/LeetCode/tree/master/1370-count-number-of-nice-subarrays) |
@@ -365,6 +367,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | [0807-custom-sort-string](https://github.com/DpkRn/LeetCode/tree/master/0807-custom-sort-string) |
 | [0886-score-of-parentheses](https://github.com/DpkRn/LeetCode/tree/master/0886-score-of-parentheses) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/DpkRn/LeetCode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
+| [1044-find-common-characters](https://github.com/DpkRn/LeetCode/tree/master/1044-find-common-characters) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/DpkRn/LeetCode/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/DpkRn/LeetCode/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1508-longest-happy-prefix](https://github.com/DpkRn/LeetCode/tree/master/1508-longest-happy-prefix) |
