@@ -265,6 +265,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/DpkRn/LeetCode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/DpkRn/LeetCode/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [0394-decode-string](https://github.com/DpkRn/LeetCode/tree/master/0394-decode-string) |
 | [0726-number-of-atoms](https://github.com/DpkRn/LeetCode/tree/master/0726-number-of-atoms) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/DpkRn/LeetCode/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0886-score-of-parentheses](https://github.com/DpkRn/LeetCode/tree/master/0886-score-of-parentheses) |
@@ -337,6 +338,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 |  |
 | ------- |
 | [0273-integer-to-english-words](https://github.com/DpkRn/LeetCode/tree/master/0273-integer-to-english-words) |
+| [0394-decode-string](https://github.com/DpkRn/LeetCode/tree/master/0394-decode-string) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/DpkRn/LeetCode/tree/master/1951-find-the-winner-of-the-circular-game) |
 ## Queue
 |  |
@@ -352,6 +354,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | [0179-largest-number](https://github.com/DpkRn/LeetCode/tree/master/0179-largest-number) |
 | [0214-shortest-palindrome](https://github.com/DpkRn/LeetCode/tree/master/0214-shortest-palindrome) |
 | [0273-integer-to-english-words](https://github.com/DpkRn/LeetCode/tree/master/0273-integer-to-english-words) |
+| [0394-decode-string](https://github.com/DpkRn/LeetCode/tree/master/0394-decode-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/DpkRn/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
 | [0539-minimum-time-difference](https://github.com/DpkRn/LeetCode/tree/master/0539-minimum-time-difference) |
 | [0564-find-the-closest-palindrome](https://github.com/DpkRn/LeetCode/tree/master/0564-find-the-closest-palindrome) |
