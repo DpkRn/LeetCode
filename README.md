@@ -174,6 +174,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | [2502-sort-the-people](https://github.com/DpkRn/LeetCode/tree/master/2502-sort-the-people) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/DpkRn/LeetCode/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/DpkRn/LeetCode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
+| [2599-take-k-of-each-character-from-left-and-right](https://github.com/DpkRn/LeetCode/tree/master/2599-take-k-of-each-character-from-left-and-right) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/DpkRn/LeetCode/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/DpkRn/LeetCode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Two Pointers
@@ -386,6 +387,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/DpkRn/LeetCode/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/DpkRn/LeetCode/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2502-sort-the-people](https://github.com/DpkRn/LeetCode/tree/master/2502-sort-the-people) |
+| [2599-take-k-of-each-character-from-left-and-right](https://github.com/DpkRn/LeetCode/tree/master/2599-take-k-of-each-character-from-left-and-right) |
 | [2727-number-of-senior-citizens](https://github.com/DpkRn/LeetCode/tree/master/2727-number-of-senior-citizens) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/DpkRn/LeetCode/tree/master/2800-minimum-string-length-after-removing-substrings) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/DpkRn/LeetCode/tree/master/3235-minimum-cost-to-convert-string-i) |
@@ -532,6 +534,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | [1755-defuse-the-bomb](https://github.com/DpkRn/LeetCode/tree/master/1755-defuse-the-bomb) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/DpkRn/LeetCode/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/DpkRn/LeetCode/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
+| [2599-take-k-of-each-character-from-left-and-right](https://github.com/DpkRn/LeetCode/tree/master/2599-take-k-of-each-character-from-left-and-right) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/DpkRn/LeetCode/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 ## Binary Search Tree
 |  |
