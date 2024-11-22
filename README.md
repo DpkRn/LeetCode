@@ -95,6 +95,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | [1002-maximum-width-ramp](https://github.com/DpkRn/LeetCode/tree/master/1002-maximum-width-ramp) |
 | [1044-find-common-characters](https://github.com/DpkRn/LeetCode/tree/master/1044-find-common-characters) |
 | [1046-max-consecutive-ones-iii](https://github.com/DpkRn/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
+| [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/DpkRn/LeetCode/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1196-filling-bookcase-shelves](https://github.com/DpkRn/LeetCode/tree/master/1196-filling-bookcase-shelves) |
 | [1207-delete-nodes-and-return-forest](https://github.com/DpkRn/LeetCode/tree/master/1207-delete-nodes-and-return-forest) |
 | [1240-stone-game-ii](https://github.com/DpkRn/LeetCode/tree/master/1240-stone-game-ii) |
@@ -164,6 +165,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | [0966-binary-subarrays-with-sum](https://github.com/DpkRn/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/DpkRn/LeetCode/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1044-find-common-characters](https://github.com/DpkRn/LeetCode/tree/master/1044-find-common-characters) |
+| [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/DpkRn/LeetCode/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1207-delete-nodes-and-return-forest](https://github.com/DpkRn/LeetCode/tree/master/1207-delete-nodes-and-return-forest) |
 | [1256-rank-transform-of-an-array](https://github.com/DpkRn/LeetCode/tree/master/1256-rank-transform-of-an-array) |
 | [1370-count-number-of-nice-subarrays](https://github.com/DpkRn/LeetCode/tree/master/1370-count-number-of-nice-subarrays) |
@@ -419,6 +421,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 ## Matrix
 |  |
 | ------- |
+| [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/DpkRn/LeetCode/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/DpkRn/LeetCode/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/DpkRn/LeetCode/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [2035-count-sub-islands](https://github.com/DpkRn/LeetCode/tree/master/2035-count-sub-islands) |
