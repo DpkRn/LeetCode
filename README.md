@@ -79,6 +79,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | [0485-max-consecutive-ones](https://github.com/DpkRn/LeetCode/tree/master/0485-max-consecutive-ones) |
 | [0493-reverse-pairs](https://github.com/DpkRn/LeetCode/tree/master/0493-reverse-pairs) |
 | [0496-next-greater-element-i](https://github.com/DpkRn/LeetCode/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/DpkRn/LeetCode/tree/master/0503-next-greater-element-ii) |
 | [0539-minimum-time-difference](https://github.com/DpkRn/LeetCode/tree/master/0539-minimum-time-difference) |
 | [0605-can-place-flowers](https://github.com/DpkRn/LeetCode/tree/master/0605-can-place-flowers) |
 | [0624-maximum-distance-in-arrays](https://github.com/DpkRn/LeetCode/tree/master/0624-maximum-distance-in-arrays) |
@@ -276,6 +277,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/DpkRn/LeetCode/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0394-decode-string](https://github.com/DpkRn/LeetCode/tree/master/0394-decode-string) |
 | [0496-next-greater-element-i](https://github.com/DpkRn/LeetCode/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/DpkRn/LeetCode/tree/master/0503-next-greater-element-ii) |
 | [0726-number-of-atoms](https://github.com/DpkRn/LeetCode/tree/master/0726-number-of-atoms) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/DpkRn/LeetCode/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0886-score-of-parentheses](https://github.com/DpkRn/LeetCode/tree/master/0886-score-of-parentheses) |
@@ -598,6 +600,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 |  |
 | ------- |
 | [0496-next-greater-element-i](https://github.com/DpkRn/LeetCode/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/DpkRn/LeetCode/tree/master/0503-next-greater-element-ii) |
 | [1002-maximum-width-ramp](https://github.com/DpkRn/LeetCode/tree/master/1002-maximum-width-ramp) |
 ## Monotonic Queue
 |  |
