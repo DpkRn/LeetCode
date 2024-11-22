@@ -61,6 +61,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/DpkRn/LeetCode/tree/master/0001-two-sum) |
+| [0031-next-permutation](https://github.com/DpkRn/LeetCode/tree/master/0031-next-permutation) |
 | [0051-n-queens](https://github.com/DpkRn/LeetCode/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/DpkRn/LeetCode/tree/master/0053-maximum-subarray) |
 | [0075-sort-colors](https://github.com/DpkRn/LeetCode/tree/master/0075-sort-colors) |
@@ -182,6 +183,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 ## Two Pointers
 |  |
 | ------- |
+| [0031-next-permutation](https://github.com/DpkRn/LeetCode/tree/master/0031-next-permutation) |
 | [0075-sort-colors](https://github.com/DpkRn/LeetCode/tree/master/0075-sort-colors) |
 | [0202-happy-number](https://github.com/DpkRn/LeetCode/tree/master/0202-happy-number) |
 | [0283-move-zeroes](https://github.com/DpkRn/LeetCode/tree/master/0283-move-zeroes) |
