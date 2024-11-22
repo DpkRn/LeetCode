@@ -1,19 +1,17 @@
 class Solution {
 public:
     int maxEqualRowsAfterFlips(vector<vector<int>>& matrix) {
-        int m=matrix.size();
-        int n=matrix[0].size();
+        unordered_map<string,int> mp;
         int ans=0;
         for(auto &row:matrix){
-            vector<int> flip(n,0);
-            for(int i=0;i<n;i++){
-                flip[i]=1-row[i];
+            string str="";
+            int x=row[0];
+            for(auto &it:row){
+                str+=it==row[0]?'t':'f';
             }
-            int cnt=0;
-            for(auto &currRow:matrix){
-                if(flip==currRow|| row==currRow) cnt++;
-            }
-            ans=max(ans,cnt);
+            mp[str]++;
+            ans=max(ans,mp[str]);
+
         }
         return ans;
     }
