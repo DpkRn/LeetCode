@@ -2,15 +2,27 @@ class Solution {
 public:
     int trap(vector<int>& height) {
         int n=height.size();
-        int left[n],right[n];
+        vector<int> next(n),prev(n);
+        stack<int> st;
+        for(int i=n-1;i>=0;i--){
+            while(!st.empty()&&(st.top()<=height[i])) st.pop();
+            next[i]= st.empty()?height[i]:st.top();
+           if(st.empty()) st.push(height[i]); 
+        }
+        
+        while(!st.empty()) st.pop();
         for(int i=0;i<n;i++){
-            left[i]=i-1>=0?max(left[i-1],height[i]):height[0];
-            right[n-1-i]=n-i<n?max(right[n-i],height[n-1-i]):height[n-1];
+           
+            while(!st.empty()&&st.top()<=height[i]) st.pop();
+            prev[i]= st.empty()?height[i]:st.top();
+            if(st.empty())st.push(height[i]);
         }
         int ans=0;
         for(int i=0;i<n;i++){
-            ans+=min(left[i],right[i])-height[i];
+             cout<<prev[i]<<" ";
+            ans+=(min(next[i],prev[i])-height[i]);
         }
         return ans;
+
     }
 };
