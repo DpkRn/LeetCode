@@ -3,23 +3,15 @@ public:
     int trap(vector<int>& height) {
         int n=height.size();
         vector<int> next(n),prev(n);
-        stack<int> st;
+        cout<<next.size();  
         for(int i=n-1;i>=0;i--){
-            while(!st.empty()&&(st.top()<=height[i])) st.pop();
-            next[i]= st.empty()?height[i]:st.top();
-           if(st.empty()) st.push(height[i]); 
+            next[i]= i==n-1?height[i]:max(height[i],next[i+1]);
         }
-        
-        while(!st.empty()) st.pop();
         for(int i=0;i<n;i++){
-           
-            while(!st.empty()&&st.top()<=height[i]) st.pop();
-            prev[i]= st.empty()?height[i]:st.top();
-            if(st.empty())st.push(height[i]);
+            prev[i]= i==0?height[i]:max(height[i],prev[i-1]);
         }
         int ans=0;
         for(int i=0;i<n;i++){
-             cout<<prev[i]<<" ";
             ans+=(min(next[i],prev[i])-height[i]);
         }
         return ans;
