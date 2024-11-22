@@ -62,6 +62,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | ------- |
 | [0001-two-sum](https://github.com/DpkRn/LeetCode/tree/master/0001-two-sum) |
 | [0031-next-permutation](https://github.com/DpkRn/LeetCode/tree/master/0031-next-permutation) |
+| [0042-trapping-rain-water](https://github.com/DpkRn/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0051-n-queens](https://github.com/DpkRn/LeetCode/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/DpkRn/LeetCode/tree/master/0053-maximum-subarray) |
 | [0075-sort-colors](https://github.com/DpkRn/LeetCode/tree/master/0075-sort-colors) |
@@ -185,6 +186,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 |  |
 | ------- |
 | [0031-next-permutation](https://github.com/DpkRn/LeetCode/tree/master/0031-next-permutation) |
+| [0042-trapping-rain-water](https://github.com/DpkRn/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0075-sort-colors](https://github.com/DpkRn/LeetCode/tree/master/0075-sort-colors) |
 | [0202-happy-number](https://github.com/DpkRn/LeetCode/tree/master/0202-happy-number) |
 | [0283-move-zeroes](https://github.com/DpkRn/LeetCode/tree/master/0283-move-zeroes) |
@@ -273,6 +275,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 ## Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/DpkRn/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0094-binary-tree-inorder-traversal](https://github.com/DpkRn/LeetCode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/DpkRn/LeetCode/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0394-decode-string](https://github.com/DpkRn/LeetCode/tree/master/0394-decode-string) |
@@ -506,6 +509,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 ## Dynamic Programming
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/DpkRn/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/DpkRn/LeetCode/tree/master/0053-maximum-subarray) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/DpkRn/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0264-ugly-number-ii](https://github.com/DpkRn/LeetCode/tree/master/0264-ugly-number-ii) |
@@ -599,6 +603,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 ## Monotonic Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/DpkRn/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0496-next-greater-element-i](https://github.com/DpkRn/LeetCode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/DpkRn/LeetCode/tree/master/0503-next-greater-element-ii) |
 | [1002-maximum-width-ramp](https://github.com/DpkRn/LeetCode/tree/master/1002-maximum-width-ramp) |
