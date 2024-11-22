@@ -76,6 +76,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | [0307-range-sum-query-mutable](https://github.com/DpkRn/LeetCode/tree/master/0307-range-sum-query-mutable) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/DpkRn/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/DpkRn/LeetCode/tree/master/0453-minimum-moves-to-equal-array-elements) |
+| [0456-132-pattern](https://github.com/DpkRn/LeetCode/tree/master/0456-132-pattern) |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/DpkRn/LeetCode/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0485-max-consecutive-ones](https://github.com/DpkRn/LeetCode/tree/master/0485-max-consecutive-ones) |
 | [0493-reverse-pairs](https://github.com/DpkRn/LeetCode/tree/master/0493-reverse-pairs) |
@@ -208,6 +209,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | ------- |
 | [0268-missing-number](https://github.com/DpkRn/LeetCode/tree/master/0268-missing-number) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/DpkRn/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0456-132-pattern](https://github.com/DpkRn/LeetCode/tree/master/0456-132-pattern) |
 | [0493-reverse-pairs](https://github.com/DpkRn/LeetCode/tree/master/0493-reverse-pairs) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/DpkRn/LeetCode/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0729-my-calendar-i](https://github.com/DpkRn/LeetCode/tree/master/0729-my-calendar-i) |
@@ -284,6 +286,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/DpkRn/LeetCode/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0394-decode-string](https://github.com/DpkRn/LeetCode/tree/master/0394-decode-string) |
 | [0402-remove-k-digits](https://github.com/DpkRn/LeetCode/tree/master/0402-remove-k-digits) |
+| [0456-132-pattern](https://github.com/DpkRn/LeetCode/tree/master/0456-132-pattern) |
 | [0496-next-greater-element-i](https://github.com/DpkRn/LeetCode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/DpkRn/LeetCode/tree/master/0503-next-greater-element-ii) |
 | [0726-number-of-atoms](https://github.com/DpkRn/LeetCode/tree/master/0726-number-of-atoms) |
@@ -512,6 +515,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 ## Ordered Set
 |  |
 | ------- |
+| [0456-132-pattern](https://github.com/DpkRn/LeetCode/tree/master/0456-132-pattern) |
 | [0493-reverse-pairs](https://github.com/DpkRn/LeetCode/tree/master/0493-reverse-pairs) |
 | [0729-my-calendar-i](https://github.com/DpkRn/LeetCode/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/DpkRn/LeetCode/tree/master/0731-my-calendar-ii) |
@@ -614,6 +618,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | ------- |
 | [0042-trapping-rain-water](https://github.com/DpkRn/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0402-remove-k-digits](https://github.com/DpkRn/LeetCode/tree/master/0402-remove-k-digits) |
+| [0456-132-pattern](https://github.com/DpkRn/LeetCode/tree/master/0456-132-pattern) |
 | [0496-next-greater-element-i](https://github.com/DpkRn/LeetCode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/DpkRn/LeetCode/tree/master/0503-next-greater-element-ii) |
 | [1002-maximum-width-ramp](https://github.com/DpkRn/LeetCode/tree/master/1002-maximum-width-ramp) |
