@@ -1,5 +1,6 @@
 class Solution {
 public:
+   //shifting all the hash to right till get obstacle
     void shift(vector<char> &row,int r){
         int i=row[r]=='*'?r-1:r;
         for(;i>=0&&row[i]!='*';i--){
@@ -9,6 +10,8 @@ public:
            }
         }
     }
+
+    //start shifting towards obstacle when obstacle you find
     vector<vector<char>> rotateTheBox(vector<vector<char>>& box) {
         int m=box.size();
         int n=box[0].size();
@@ -19,6 +22,8 @@ public:
                 }
             }
         }
+
+        //rotate matrix
         vector<vector<char>> ans(n,vector<char>(m));
         for(int i=0;i<m;i++){
             for(int j=0;j<n;j++){
