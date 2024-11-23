@@ -65,6 +65,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | [0042-trapping-rain-water](https://github.com/DpkRn/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0051-n-queens](https://github.com/DpkRn/LeetCode/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/DpkRn/LeetCode/tree/master/0053-maximum-subarray) |
+| [0054-spiral-matrix](https://github.com/DpkRn/LeetCode/tree/master/0054-spiral-matrix) |
 | [0075-sort-colors](https://github.com/DpkRn/LeetCode/tree/master/0075-sort-colors) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/DpkRn/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/DpkRn/LeetCode/tree/master/0128-longest-consecutive-sequence) |
@@ -352,6 +353,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 ## Simulation
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/DpkRn/LeetCode/tree/master/0054-spiral-matrix) |
 | [0592-fraction-addition-and-subtraction](https://github.com/DpkRn/LeetCode/tree/master/0592-fraction-addition-and-subtraction) |
 | [0735-asteroid-collision](https://github.com/DpkRn/LeetCode/tree/master/0735-asteroid-collision) |
 | [1642-water-bottles](https://github.com/DpkRn/LeetCode/tree/master/1642-water-bottles) |
@@ -431,6 +433,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 ## Matrix
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/DpkRn/LeetCode/tree/master/0054-spiral-matrix) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/DpkRn/LeetCode/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/DpkRn/LeetCode/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/DpkRn/LeetCode/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
