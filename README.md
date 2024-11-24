@@ -129,6 +129,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | [2035-count-sub-islands](https://github.com/DpkRn/LeetCode/tree/master/2035-count-sub-islands) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/DpkRn/LeetCode/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/DpkRn/LeetCode/tree/master/2067-maximum-number-of-points-with-cost) |
+| [2089-maximum-matrix-sum](https://github.com/DpkRn/LeetCode/tree/master/2089-maximum-matrix-sum) |
 | [2113-find-the-kth-largest-integer-in-the-array](https://github.com/DpkRn/LeetCode/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/DpkRn/LeetCode/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/DpkRn/LeetCode/tree/master/2163-kth-distinct-string-in-an-array) |
@@ -259,6 +260,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/DpkRn/LeetCode/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/DpkRn/LeetCode/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/DpkRn/LeetCode/tree/master/1818-maximum-score-from-removing-substrings) |
+| [2089-maximum-matrix-sum](https://github.com/DpkRn/LeetCode/tree/master/2089-maximum-matrix-sum) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/DpkRn/LeetCode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/DpkRn/LeetCode/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/DpkRn/LeetCode/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
@@ -439,6 +441,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/DpkRn/LeetCode/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1972-rotating-the-box](https://github.com/DpkRn/LeetCode/tree/master/1972-rotating-the-box) |
 | [2035-count-sub-islands](https://github.com/DpkRn/LeetCode/tree/master/2035-count-sub-islands) |
+| [2089-maximum-matrix-sum](https://github.com/DpkRn/LeetCode/tree/master/2089-maximum-matrix-sum) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/DpkRn/LeetCode/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2472-build-a-matrix-with-conditions](https://github.com/DpkRn/LeetCode/tree/master/2472-build-a-matrix-with-conditions) |
 ## Divide and Conquer
