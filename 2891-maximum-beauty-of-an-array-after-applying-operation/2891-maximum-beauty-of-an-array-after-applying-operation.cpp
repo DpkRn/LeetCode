@@ -10,6 +10,23 @@ public:
 
         int n=nums.size();
         sort(begin(nums),end(nums));
+       
+        int ans=0;
+        for(int i=0;i<n;i++){
+            int target=nums[i]+2*k;
+            int ind=upper_bound(begin(nums),end(nums),target)-nums.begin();
+            ans=max(ans,ind-i);
+        }
+        return ans;        
+    }
+};
+
+/*
+class Solution {
+public:
+//using interval method
+  int n=nums.size();
+        sort(begin(nums),end(nums));
         deque<int> dq;
         int ans=0;
         for(auto it:nums){
@@ -19,12 +36,8 @@ public:
 
         }
         return ans;        
-    }
-};
 
-/*
-class Solution {
-public:
+
 //using interval
     int maximumBeauty(vector<int>& nums, int k) {
         int n=nums.size();
