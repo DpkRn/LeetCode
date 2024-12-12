@@ -147,6 +147,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/DpkRn/LeetCode/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/DpkRn/LeetCode/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/DpkRn/LeetCode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
+| [2692-take-gifts-from-the-richest-pile](https://github.com/DpkRn/LeetCode/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [2727-number-of-senior-citizens](https://github.com/DpkRn/LeetCode/tree/master/2727-number-of-senior-citizens) |
 | [2846-robot-collisions](https://github.com/DpkRn/LeetCode/tree/master/2846-robot-collisions) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/DpkRn/LeetCode/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
@@ -373,6 +374,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/DpkRn/LeetCode/tree/master/2076-sum-of-digits-of-string-after-convert) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/DpkRn/LeetCode/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2645-pass-the-pillow](https://github.com/DpkRn/LeetCode/tree/master/2645-pass-the-pillow) |
+| [2692-take-gifts-from-the-richest-pile](https://github.com/DpkRn/LeetCode/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/DpkRn/LeetCode/tree/master/2800-minimum-string-length-after-removing-substrings) |
 | [2846-robot-collisions](https://github.com/DpkRn/LeetCode/tree/master/2846-robot-collisions) |
 ## Recursion
@@ -473,6 +475,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/DpkRn/LeetCode/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2113-find-the-kth-largest-integer-in-the-array](https://github.com/DpkRn/LeetCode/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/DpkRn/LeetCode/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
+| [2692-take-gifts-from-the-richest-pile](https://github.com/DpkRn/LeetCode/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [2803-modify-graph-edge-weights](https://github.com/DpkRn/LeetCode/tree/master/2803-modify-graph-edge-weights) |
 ## Merge Sort
 |  |
