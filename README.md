@@ -299,6 +299,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | [0183-customers-who-never-order](https://github.com/DpkRn/LeetCode/tree/master/0183-customers-who-never-order) |
 | [0584-find-customer-referee](https://github.com/DpkRn/LeetCode/tree/master/0584-find-customer-referee) |
 | [1258-article-views-i](https://github.com/DpkRn/LeetCode/tree/master/1258-article-views-i) |
+| [1827-invalid-tweets](https://github.com/DpkRn/LeetCode/tree/master/1827-invalid-tweets) |
 | [1908-recyclable-and-low-fat-products](https://github.com/DpkRn/LeetCode/tree/master/1908-recyclable-and-low-fat-products) |
 ## Stack
 |  |
