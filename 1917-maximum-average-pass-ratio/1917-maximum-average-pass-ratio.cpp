@@ -1,20 +1,29 @@
+#define P pair<double,int> 
 class Solution {
 public:
-   double maxAverageRatio(vector<vector<int>>& classes, int extraStudents) {
-    auto profit = [&](double pass, double total) {
-        return (pass + 1) / (total + 1) - pass / total;
-    };
-    double total = 0;
-    priority_queue<pair<double, array<int, 2>>> pq;
-    for (auto &c : classes) {
-        total += (double) c[0] / c[1];
-        pq.push({profit(c[0], c[1]), {c[0], c[1]}});
+    double maxAverageRatio(vector<vector<int>>& classes, int extraStudents) {
+        int n=classes.size();
+        priority_queue<P> pq;
+        int i=0;
+        for(auto it:classes){
+            double profit=(((double)it[0]+1)/((double)it[1]+1))-((double)it[0]/it[1]);
+            pq.push({profit,i});
+            i++;
+        }
+        while(extraStudents--){
+            int idx=pq.top().second;
+            pq.pop();
+            classes[idx][0]++;
+            classes[idx][1]++;
+            double newProfit=(((double)classes[idx][0]+1)/(classes[idx][1]+1))-((double)classes[idx][0]/classes[idx][1]);
+            pq.push({newProfit,idx});
+        }
+
+        double ans=0;
+        for(auto it:classes){
+            ans+=((double)it[0]/it[1]);
+        }
+        return ans/n;
+
     }
-    while (extraStudents--) {
-        auto [added_profit, c] = pq.top(); pq.pop();
-        total += added_profit;
-        pq.push({profit(c[0] + 1, c[1] + 1), {c[0] + 1, c[1] + 1}});
-    }
-    return total / classes.size();
-}
 };
