@@ -300,6 +300,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | [0182-duplicate-emails](https://github.com/DpkRn/LeetCode/tree/master/0182-duplicate-emails) |
 | [0183-customers-who-never-order](https://github.com/DpkRn/LeetCode/tree/master/0183-customers-who-never-order) |
 | [0584-find-customer-referee](https://github.com/DpkRn/LeetCode/tree/master/0584-find-customer-referee) |
+| [1153-product-sales-analysis-i](https://github.com/DpkRn/LeetCode/tree/master/1153-product-sales-analysis-i) |
 | [1258-article-views-i](https://github.com/DpkRn/LeetCode/tree/master/1258-article-views-i) |
 | [1509-replace-employee-id-with-the-unique-identifier](https://github.com/DpkRn/LeetCode/tree/master/1509-replace-employee-id-with-the-unique-identifier) |
 | [1827-invalid-tweets](https://github.com/DpkRn/LeetCode/tree/master/1827-invalid-tweets) |
