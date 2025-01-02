@@ -148,6 +148,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/DpkRn/LeetCode/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/DpkRn/LeetCode/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/DpkRn/LeetCode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
+| [2691-count-vowel-strings-in-ranges](https://github.com/DpkRn/LeetCode/tree/master/2691-count-vowel-strings-in-ranges) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/DpkRn/LeetCode/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/DpkRn/LeetCode/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [2727-number-of-senior-citizens](https://github.com/DpkRn/LeetCode/tree/master/2727-number-of-senior-citizens) |
@@ -449,6 +450,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/DpkRn/LeetCode/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2502-sort-the-people](https://github.com/DpkRn/LeetCode/tree/master/2502-sort-the-people) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/DpkRn/LeetCode/tree/master/2599-take-k-of-each-character-from-left-and-right) |
+| [2691-count-vowel-strings-in-ranges](https://github.com/DpkRn/LeetCode/tree/master/2691-count-vowel-strings-in-ranges) |
 | [2727-number-of-senior-citizens](https://github.com/DpkRn/LeetCode/tree/master/2727-number-of-senior-citizens) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/DpkRn/LeetCode/tree/master/2800-minimum-string-length-after-removing-substrings) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/DpkRn/LeetCode/tree/master/3235-minimum-cost-to-convert-string-i) |
@@ -548,6 +550,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | [1694-make-sum-divisible-by-p](https://github.com/DpkRn/LeetCode/tree/master/1694-make-sum-divisible-by-p) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/DpkRn/LeetCode/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/DpkRn/LeetCode/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
+| [2691-count-vowel-strings-in-ranges](https://github.com/DpkRn/LeetCode/tree/master/2691-count-vowel-strings-in-ranges) |
 ## Binary Indexed Tree
 |  |
 | ------- |
