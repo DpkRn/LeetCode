@@ -192,6 +192,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | [1786-count-the-number-of-consistent-strings](https://github.com/DpkRn/LeetCode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/DpkRn/LeetCode/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/DpkRn/LeetCode/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
+| [2059-unique-length-3-palindromic-subsequences](https://github.com/DpkRn/LeetCode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/DpkRn/LeetCode/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/DpkRn/LeetCode/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2502-sort-the-people](https://github.com/DpkRn/LeetCode/tree/master/2502-sort-the-people) |
@@ -443,6 +444,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | [1818-maximum-score-from-removing-substrings](https://github.com/DpkRn/LeetCode/tree/master/1818-maximum-score-from-removing-substrings) |
 | [1923-sentence-similarity-iii](https://github.com/DpkRn/LeetCode/tree/master/1923-sentence-similarity-iii) |
 | [1970-sorting-the-sentence](https://github.com/DpkRn/LeetCode/tree/master/1970-sorting-the-sentence) |
+| [2059-unique-length-3-palindromic-subsequences](https://github.com/DpkRn/LeetCode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/DpkRn/LeetCode/tree/master/2076-sum-of-digits-of-string-after-convert) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/DpkRn/LeetCode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2113-find-the-kth-largest-integer-in-the-array](https://github.com/DpkRn/LeetCode/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
@@ -550,6 +552,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | [1537-maximum-score-after-splitting-a-string](https://github.com/DpkRn/LeetCode/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1694-make-sum-divisible-by-p](https://github.com/DpkRn/LeetCode/tree/master/1694-make-sum-divisible-by-p) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/DpkRn/LeetCode/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
+| [2059-unique-length-3-palindromic-subsequences](https://github.com/DpkRn/LeetCode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2358-number-of-ways-to-split-array](https://github.com/DpkRn/LeetCode/tree/master/2358-number-of-ways-to-split-array) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/DpkRn/LeetCode/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/DpkRn/LeetCode/tree/master/2691-count-vowel-strings-in-ranges) |
@@ -657,6 +660,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | [1435-xor-queries-of-a-subarray](https://github.com/DpkRn/LeetCode/tree/master/1435-xor-queries-of-a-subarray) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/DpkRn/LeetCode/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/DpkRn/LeetCode/tree/master/1786-count-the-number-of-consistent-strings) |
+| [2059-unique-length-3-palindromic-subsequences](https://github.com/DpkRn/LeetCode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/DpkRn/LeetCode/tree/master/2323-minimum-bit-flips-to-convert-number) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/DpkRn/LeetCode/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 ## Number Theory
