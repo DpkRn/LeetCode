@@ -158,6 +158,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | [2868-continuous-subarrays](https://github.com/DpkRn/LeetCode/tree/master/2868-continuous-subarrays) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/DpkRn/LeetCode/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/DpkRn/LeetCode/tree/master/3235-minimum-cost-to-convert-string-i) |
+| [3309-count-prefix-and-suffix-pairs-i](https://github.com/DpkRn/LeetCode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/DpkRn/LeetCode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/DpkRn/LeetCode/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/DpkRn/LeetCode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
@@ -461,6 +462,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | [3235-minimum-cost-to-convert-string-i](https://github.com/DpkRn/LeetCode/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/DpkRn/LeetCode/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/DpkRn/LeetCode/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
+| [3309-count-prefix-and-suffix-pairs-i](https://github.com/DpkRn/LeetCode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 ## Backtracking
 |  |
 | ------- |
@@ -609,6 +611,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | [0014-longest-common-prefix](https://github.com/DpkRn/LeetCode/tree/master/0014-longest-common-prefix) |
 | [0386-lexicographical-numbers](https://github.com/DpkRn/LeetCode/tree/master/0386-lexicographical-numbers) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/DpkRn/LeetCode/tree/master/2494-sum-of-prefix-scores-of-strings) |
+| [3309-count-prefix-and-suffix-pairs-i](https://github.com/DpkRn/LeetCode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 ## Sliding Window
 |  |
 | ------- |
@@ -640,17 +643,20 @@ Request: if you think any of the problem still can be optimise then please.. try
 | ------- |
 | [0214-shortest-palindrome](https://github.com/DpkRn/LeetCode/tree/master/0214-shortest-palindrome) |
 | [1508-longest-happy-prefix](https://github.com/DpkRn/LeetCode/tree/master/1508-longest-happy-prefix) |
+| [3309-count-prefix-and-suffix-pairs-i](https://github.com/DpkRn/LeetCode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 ## String Matching
 |  |
 | ------- |
 | [0214-shortest-palindrome](https://github.com/DpkRn/LeetCode/tree/master/0214-shortest-palindrome) |
 | [1508-longest-happy-prefix](https://github.com/DpkRn/LeetCode/tree/master/1508-longest-happy-prefix) |
 | [1524-string-matching-in-an-array](https://github.com/DpkRn/LeetCode/tree/master/1524-string-matching-in-an-array) |
+| [3309-count-prefix-and-suffix-pairs-i](https://github.com/DpkRn/LeetCode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 ## Hash Function
 |  |
 | ------- |
 | [0214-shortest-palindrome](https://github.com/DpkRn/LeetCode/tree/master/0214-shortest-palindrome) |
 | [1508-longest-happy-prefix](https://github.com/DpkRn/LeetCode/tree/master/1508-longest-happy-prefix) |
+| [3309-count-prefix-and-suffix-pairs-i](https://github.com/DpkRn/LeetCode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 ## Game Theory
 |  |
 | ------- |
