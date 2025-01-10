@@ -95,6 +95,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | [0859-design-circular-deque](https://github.com/DpkRn/LeetCode/tree/master/0859-design-circular-deque) |
 | [0890-lemonade-change](https://github.com/DpkRn/LeetCode/tree/master/0890-lemonade-change) |
 | [0948-sort-an-array](https://github.com/DpkRn/LeetCode/tree/master/0948-sort-an-array) |
+| [0952-word-subsets](https://github.com/DpkRn/LeetCode/tree/master/0952-word-subsets) |
 | [0966-binary-subarrays-with-sum](https://github.com/DpkRn/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
 | [1002-maximum-width-ramp](https://github.com/DpkRn/LeetCode/tree/master/1002-maximum-width-ramp) |
 | [1044-find-common-characters](https://github.com/DpkRn/LeetCode/tree/master/1044-find-common-characters) |
@@ -180,6 +181,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | [0567-permutation-in-string](https://github.com/DpkRn/LeetCode/tree/master/0567-permutation-in-string) |
 | [0726-number-of-atoms](https://github.com/DpkRn/LeetCode/tree/master/0726-number-of-atoms) |
 | [0807-custom-sort-string](https://github.com/DpkRn/LeetCode/tree/master/0807-custom-sort-string) |
+| [0952-word-subsets](https://github.com/DpkRn/LeetCode/tree/master/0952-word-subsets) |
 | [0966-binary-subarrays-with-sum](https://github.com/DpkRn/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/DpkRn/LeetCode/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1044-find-common-characters](https://github.com/DpkRn/LeetCode/tree/master/1044-find-common-characters) |
@@ -434,6 +436,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | [0807-custom-sort-string](https://github.com/DpkRn/LeetCode/tree/master/0807-custom-sort-string) |
 | [0886-score-of-parentheses](https://github.com/DpkRn/LeetCode/tree/master/0886-score-of-parentheses) |
 | [0916-decoded-string-at-index](https://github.com/DpkRn/LeetCode/tree/master/0916-decoded-string-at-index) |
+| [0952-word-subsets](https://github.com/DpkRn/LeetCode/tree/master/0952-word-subsets) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/DpkRn/LeetCode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1044-find-common-characters](https://github.com/DpkRn/LeetCode/tree/master/1044-find-common-characters) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/DpkRn/LeetCode/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
