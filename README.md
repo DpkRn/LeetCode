@@ -290,6 +290,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | [2089-maximum-matrix-sum](https://github.com/DpkRn/LeetCode/tree/master/2089-maximum-matrix-sum) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/DpkRn/LeetCode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/DpkRn/LeetCode/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
+| [2509-minimize-xor](https://github.com/DpkRn/LeetCode/tree/master/2509-minimize-xor) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/DpkRn/LeetCode/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Linked List
 |  |
@@ -683,6 +684,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/DpkRn/LeetCode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/DpkRn/LeetCode/tree/master/2323-minimum-bit-flips-to-convert-number) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/DpkRn/LeetCode/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
+| [2509-minimize-xor](https://github.com/DpkRn/LeetCode/tree/master/2509-minimize-xor) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/DpkRn/LeetCode/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 ## Number Theory
 |  |
