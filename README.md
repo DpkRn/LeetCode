@@ -32,6 +32,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | [0787-sliding-puzzle](https://github.com/DpkRn/LeetCode/tree/master/0787-sliding-puzzle) |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/DpkRn/LeetCode/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 | [1484-linked-list-in-binary-tree](https://github.com/DpkRn/LeetCode/tree/master/1484-linked-list-in-binary-tree) |
+| [1876-map-of-highest-peak](https://github.com/DpkRn/LeetCode/tree/master/1876-map-of-highest-peak) |
 | [2035-count-sub-islands](https://github.com/DpkRn/LeetCode/tree/master/2035-count-sub-islands) |
 | [2171-second-minimum-time-to-reach-destination](https://github.com/DpkRn/LeetCode/tree/master/2171-second-minimum-time-to-reach-destination) |
 ## Graph
@@ -126,6 +127,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | [1755-defuse-the-bomb](https://github.com/DpkRn/LeetCode/tree/master/1755-defuse-the-bomb) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/DpkRn/LeetCode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1803-average-waiting-time](https://github.com/DpkRn/LeetCode/tree/master/1803-average-waiting-time) |
+| [1876-map-of-highest-peak](https://github.com/DpkRn/LeetCode/tree/master/1876-map-of-highest-peak) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/DpkRn/LeetCode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/DpkRn/LeetCode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1917-maximum-average-pass-ratio](https://github.com/DpkRn/LeetCode/tree/master/1917-maximum-average-pass-ratio) |
@@ -494,6 +496,7 @@ Request: if you think any of the problem still can be optimise then please.. try
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/DpkRn/LeetCode/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/DpkRn/LeetCode/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/DpkRn/LeetCode/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
+| [1876-map-of-highest-peak](https://github.com/DpkRn/LeetCode/tree/master/1876-map-of-highest-peak) |
 | [1972-rotating-the-box](https://github.com/DpkRn/LeetCode/tree/master/1972-rotating-the-box) |
 | [2035-count-sub-islands](https://github.com/DpkRn/LeetCode/tree/master/2035-count-sub-islands) |
 | [2089-maximum-matrix-sum](https://github.com/DpkRn/LeetCode/tree/master/2089-maximum-matrix-sum) |
